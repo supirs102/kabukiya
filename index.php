@@ -13,7 +13,7 @@
 <body>
 <div id="wrapper">
 <header>
-	<h1><img id="headerlogo" src="images/icon.png"></h1>
+	<h1></h1>
 	<div id="headernav">
 		<nav>
 			<ul>
@@ -35,7 +35,7 @@
 		<p id="footerjp">104-0061&emsp;東京都中央区銀座１丁目23-45</p>
 		<p>Ginza&emsp;1-23-45,&emsp;Chuo-ku,&emsp;Tokyo,&emsp;Japan</p>
 	</div><!-- /footerdata -->
-	<div id="footerimg"><img id="footerlogo" src="#"></div>
+	<div id="footerimg"><img id="footerlogo" src="images/icon.png" width="69" height="92"></div>
 	<div id="footernav">
 		<nav>
 			<ul>
