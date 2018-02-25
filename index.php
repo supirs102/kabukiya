@@ -13,7 +13,7 @@
 <body>
 <div id="wrapper">
 <header>
-	<h1><img id="headerlogo" src="images/title.jpg"></h1>
+	<h1><img id="headerlogo" src="images/icon.png"></h1>
 	<div id="headernav">
 		<nav>
 			<ul>
