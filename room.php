@@ -27,7 +27,7 @@
 		</nav>
 	</div><!-- /heaernav -->
 </header><!-- /header -->
-<div id="main">
+<div class="main" id="roommain">
 	<h2><span class="kana">OHEYA</span><br><span>おへや</span></h2>
 	<div id="roomnav">
 		<nav>
@@ -109,7 +109,7 @@
 		<img src="#">
 		<img src="#">
 	</div><!-- /roomkamakura -->
-</div><!-- /main -->
+</div><!-- /roommain -->
 <footer>
 	<div id="footerdata">
 		<span class="kana">かぶきや</span><br>

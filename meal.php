@@ -27,7 +27,7 @@
 		</nav>
 	</div><!-- /heaernav -->
 </header><!-- /header -->
-<div id="main"></div><!-- /main -->
+<div class="main" id="mealmain"></div><!-- /mealmain -->
 <footer>
 	<div id="footerdata">
 		<span class="kana">かぶきや</span><br>

@@ -27,7 +27,7 @@
 		</nav>
 	</div><!-- /heaernav -->
 </header><!-- /header -->
-<div id="main"></div><!-- /main -->
+<div class="main" id="reservationmain"></div><!-- /reservationmain -->
 <footer>
 	<div id="footerdata">
 		<span class="kana">かぶきや</span><br>
