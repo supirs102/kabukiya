@@ -185,10 +185,60 @@ footer div#footernav nav ul li a {
 div#main {
 	width: 50%;
 	height: 94vh;
-	background-color: yellow;
+	color: white;
+	background-color: navy;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: auto;
+	overflow: scroll;
+	position: relative;
+}
+div#main h2 {
+	writing-mode: vertical-rl;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+div#main h2 span {
+	font-size: 16px;
+	letter-spacing: 8px;
+}
+div#main h2 span.kana {
+	font-size: 10px;
+	letter-spacing: 3px;
+}
+div#main div#roomnav nav ul {
+	text-align: center;
+}
+div#main div#roomnav nav ul li {
+	writing-mode: vertical-rl;
+	display: inline-block;
+	margin: 40px 20px;
+}
+div#main div#roomabout {
+	writing-mode: vertical-rl;
+	margin: 0 auto;
+}
+div#main div#roomgoemon {
+	width: 100%;
+	background: linear-gradient(180deg,navy 0%,navy 20%,red 20%,red 100%);
+}
+div#main div#roomgoemon p {
+	writing-mode: vertical-rl;
+}
+div#main div#roombenkei {
+	width: 100%;
+	background: linear-gradient(180deg,red 0%,red 20%,black 20%,black 100%);
+}
+div#main div#roombenkei p {
+	writing-mode: vertical-rl;
+}
+div#main div#roomkamakura {
+	width: 100%;
+	background: linear-gradient(180deg,black 0%,black 20%,#c39143 20%,#c39143 100%);
+}
+div#main div#roomkamakura p {
+	writing-mode: vertical-rl;
 }
 
 /* 768px以下の場合のレイアウト */

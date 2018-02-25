@@ -27,7 +27,89 @@
 		</nav>
 	</div><!-- /heaernav -->
 </header><!-- /header -->
-<div id="main"></div><!-- /main -->
+<div id="main">
+	<h2><span class="kana">OHEYA</span><br><span>おへや</span></h2>
+	<div id="roomnav">
+		<nav>
+			<ul>
+				<li><a href="#"><img src="#"></a></li>
+				<li><a href="#"><img src="#"></a></li>
+				<li><a href="#"><img src="#"></a></li>
+			</ul>
+		</nav>
+	</div><!-- /roomnav -->
+	<div id="roomabout">
+		<p>一羽のホオジロが、<br>
+		水波の部屋のテラスに<br>
+		降り立つのが見える<br>
+		池の浅瀬ではセグロセキレイが<br>
+		水浴びをしていた</p>
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+	</div><!-- /roomabout -->
+	<div id="roomgoemon">
+		<img src="#">
+		<p>一羽のホオジロが、<br>
+		水波の部屋のテラスに<br>
+		降り立つのが見える<br>
+		池の浅瀬ではセグロセキレイが<br>
+		水浴びをしていた</p>
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+		<img src="#">
+		<img src="#">
+		<img src="#">
+		<img src="#">
+	</div><!-- /roomgoemon -->
+	<div id="roombenkei">
+		<img src="#">
+		<p>一羽のホオジロが、<br>
+		水波の部屋のテラスに<br>
+		降り立つのが見える<br>
+		池の浅瀬ではセグロセキレイが<br>
+		水浴びをしていた</p>
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+		<img src="#">
+		<img src="#">
+		<img src="#">
+		<img src="#">
+	</div><!-- /roombenkei -->
+	<div id="roomkamakura">
+		<img src="#">
+		<p>一羽のホオジロが、<br>
+		水波の部屋のテラスに<br>
+		降り立つのが見える<br>
+		池の浅瀬ではセグロセキレイが<br>
+		水浴びをしていた</p>
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+		<img src="#">
+		<img src="#">
+		<img src="#">
+		<img src="#">
+	</div><!-- /roomkamakura -->
+</div><!-- /main -->
 <footer>
 	<div id="footerdata">
 		<span class="kana">かぶきや</span><br>
