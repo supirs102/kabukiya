@@ -107,8 +107,8 @@ header div#headernav nav ul li a span.kana {
 	letter-spacing: 3px;
 }
 
-/* main用 */
-div#main {
+/* look用 */
+div#look {
 	width: 50%;
 	height: 94vh;
 	background-image: url(../images/top_face.png);
@@ -180,5 +180,16 @@ footer div#footernav nav ul li a {
 	letter-spacing: 8px;
 }
 
+/* room.php用 */
+/* main用 */
+div#main {
+	width: 50%;
+	height: 94vh;
+	background-color: yellow;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
 /* 768px以下の場合のレイアウト */
-@media screen and (max-width:768px) {}
+/* @media screen and (max-width:768px) {} */
