@@ -13,21 +13,21 @@
 <body>
 <div id="wrapper">
 <header>
-	<h1><img id="headerlogo" src="images/icon.png"></h1>
+	<h1></h1>
 	<div id="headernav">
 		<nav>
 			<ul>
 				<li><a href="pc.php"><span class="kana">GOYOYAKU</span><br><span>ごよやく</span></a></li>
-				<li><a href="#"><span class="kana">GOANNAI</span><br><span>ごあんない</span></a></li>
-				<li><a href="#"><span class="kana">OHURO</span><br><span>おふろ</span></a></li>
-				<li><a href="#"><span class="kana">OSHOKUJI</span><br><span>おしょくじ</span></a></li>
-				<li><a href="#"><span class="kana">OHEYA</span><br><span>おへや</span></a></li>
-				<li><a href="#"><span class="kana">KABUKIYA</span><br><span>かぶきや</span></a></li>
+				<li><a href="guide.php"><span class="kana">GOANNAI</span><br><span>ごあんない</span></a></li>
+				<li><a href="bath.php"><span class="kana">OHURO</span><br><span>おふろ</span></a></li>
+				<li><a href="meal.php"><span class="kana">OSHOKUJI</span><br><span>おしょくじ</span></a></li>
+				<li><a href="room.php"><span class="kana">OHEYA</span><br><span>おへや</span></a></li>
+				<li><a href="index.php"><span class="kana">KABUKIYA</span><br><span>かぶきや</span></a></li>
 			</ul>
 		</nav>
 	</div><!-- /heaernav -->
 </header><!-- /header -->
-<div id="main"></div><!-- /main -->
+<div id="look"></div><!-- /look -->
 <footer>
 	<div id="footerdata">
 		<span class="kana">かぶきや</span><br>
@@ -35,7 +35,7 @@
 		<p id="footerjp">104-0061&emsp;東京都中央区銀座１丁目23-45</p>
 		<p>Ginza&emsp;1-23-45,&emsp;Chuo-ku,&emsp;Tokyo,&emsp;Japan</p>
 	</div><!-- /footerdata -->
-	<div id="footerimg"><img id="footerlogo" src="#"></div>
+	<div id="footerimg"><img id="footerlogo" src="images/icon.png" width="69" height="92"></div>
 	<div id="footernav">
 		<nav>
 			<ul>
