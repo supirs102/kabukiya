@@ -62,6 +62,7 @@ body {
 }
 a {
 	text-decoration: none;
+	color: black;
 }
 
 /* header用 */
@@ -76,7 +77,7 @@ header h1 {
 	min-width: 300px;
 	min-height: 205px;
 	height: 30vh;
-	background-color: red;
+	background-image: url(../images/title.jpg);
 	background-size: cover;
 	display: block;
 	margin: 80px auto 70px auto;
@@ -89,12 +90,11 @@ header div#headernav nav ul li {
 	display: inline-block;
 	vertical-align: top;
 	text-align: left;
-	background-color: pink;
 	margin: 5px;
 }
 header div#headernav nav ul li a {
 	display: block;
-	background-color: red;
+	background-color: white;
 	padding: 2px;
 	padding-left: 10px;
 }
@@ -150,9 +150,8 @@ footer #footerdata p#footerjp {
 footer div#footerimg  {
 	display: inline-block;
 	overflow: hidden;
-	width: 70px;
-	height: 90px;
-	background: green;
+	width: 69px;
+	height: 92px;
 	position: relative;
 	bottom: 0;
 	left: -40px;
@@ -173,6 +172,7 @@ footer div#footernav nav ul li a {
 	width: 30px;
 	line-height: 30px;
 	background-color: red;
+	color: white;
 	padding: 5px;
 }
 footer div#footernav nav ul li a {
