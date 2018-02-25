@@ -218,30 +218,39 @@ div#roommain div#roomnav nav ul li {
 	display: inline-block;
 	margin: 40px 20px;
 }
-div#roommain div#roomabout {
+div#roomabout {
 	writing-mode: vertical-rl;
 	margin: 0 auto;
 }
-div#roommain div#roomgoemon {
+div#roomgoemon {
 	width: 100%;
-	background: linear-gradient(180deg,navy 0%,navy 20%,red 20%,red 100%);
+	background: linear-gradient(180deg,navy 0%,navy 30%,red 30%,red 100%);
 }
-div#roommain div#roomgoemon p {
+div#roombenkei {
+	width: 100%;
+	background: linear-gradient(180deg,red 0%,red 30%,black 30%,black 100%);
+}
+div#roomkamakura {
+	width: 100%;
+	background: linear-gradient(180deg,black 0%,black 30%,#c39143 30%,#c39143 100%);
+}
+img.roomtitle {
+	width: 261px;
+	height: 304px;
+	display: block;
+	margin: 0 auto;
+}
+div.roomcenter {
+	position: relative;
+	margin: 30px;
+}
+div.roomdetail {
 	writing-mode: vertical-rl;
 }
-div#roommain div#roombenkei {
-	width: 100%;
-	background: linear-gradient(180deg,red 0%,red 20%,black 20%,black 100%);
-}
-div#roommain div#roombenkei p {
-	writing-mode: vertical-rl;
-}
-div#roommain div#roomkamakura {
-	width: 100%;
-	background: linear-gradient(180deg,black 0%,black 20%,#c39143 20%,#c39143 100%);
-}
-div#roommain div#roomkamakura p {
-	writing-mode: vertical-rl;
+img.roomkamon {
+	width: 100px;
+	height: 100px;
+	float: left;
 }
 
 /* 768px以下の場合のレイアウト */
