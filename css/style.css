@@ -236,16 +236,19 @@ div#roomgoemon {
 	width: 100%;
 	background: linear-gradient(180deg,#000040 0%,#000040 12%,red 12%,red 100%);
 	text-align: center;
+	position: relative;
 }
 div#roombenkei {
 	width: 100%;
 	background: linear-gradient(180deg,red 0%,red 12%,black 12%,black 100%);
 	text-align: center;
+	position: relative;
 }
 div#roomkamakura {
 	width: 100%;
 	background: linear-gradient(180deg,black 0%,black 12%,#c39143 12%,#c39143 100%);
 	text-align: center;
+	position: relative;
 }
 img.roomtitle {
 	width: 391px;
@@ -254,8 +257,16 @@ img.roomtitle {
 	margin: 0 auto;
 }
 div.roomcenter {
-	position: relative;
-	margin: 100px 0 90px 100px;
+	width: 420px;
+	height: 280px;
+	position: absolute;
+	top: -400px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/* margin: 100px 0 90px 100px; */
+
 }
 div.roomdetail {
 	writing-mode: vertical-rl;
@@ -270,6 +281,7 @@ img.roomkamon {
 img.roomtype1 {
 	width: 413px;
 	height: 280px;
+	margin-top: 500px;
 	margin-bottom: 30px;
 }
 img.roomtype2 {
