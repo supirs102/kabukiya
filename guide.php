@@ -27,7 +27,33 @@
 		</nav>
 	</div><!-- /heaernav -->
 </header><!-- /header -->
-<div class="main" id="guidemain"></div><!-- /guidemain -->
+<div class="main" id="guidemain">
+	<h2><span class="kana">GOANNAI</span><br><span>ごあんない</span></h2>
+	<img id="guidetitle1" src="#">
+	<div id="guideabout">
+		<p>一羽のホオジロが、<br>
+		水波の部屋のテラスに<br>
+		降り立つのが見える<br>
+		池の浅瀬ではセグロセキレイが<br>
+		水浴びをしていた</p>
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+	</div><!-- /guideabout -->
+	<img id="guidetitle2" src="#">
+	<div id="guidepart1">
+		<p>一羽のホオジロが、<br>
+		水波の部屋のテラスに<br>
+		降り立つのが見える<br>
+		池の浅瀬ではセグロセキレイが<br>
+		水浴びをしていた</p>
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+	</div><!-- /guidepart1 -->
+</div><!-- /guidemain -->
 <footer>
 	<div id="footerdata">
 		<span class="kana">かぶきや</span><br>

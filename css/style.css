@@ -337,6 +337,43 @@ div#bathpart2 {
 }
 
 /* guide.php用 */
+div#guidemain {
+	background-color: #3a1212;
+	position: relative;
+}
+div#guidemain h2 {
+	writing-mode: vertical-rl;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+div#guidemain h2 span {
+	font-size: 16px;
+	letter-spacing: 8px;
+}
+div#guidemain h2 span.kana {
+	font-size: 10px;
+	letter-spacing: 3px;
+}
+img#guidetitle1 {
+	width: 261px;
+	height: 304px;
+	display: block;
+	margin: 20px auto;
+}
+div#guideabout {
+	writing-mode: vertical-rl;
+	margin: 0 auto;
+}
+img#guidetitle2 {
+	width: 304px;
+	height: 261px;
+	display: block;
+	margin: 20px auto;
+}
+div#guidepart1 {
+	writing-mode: vertical-rl;
+}
 /* reservation.php用 */
 
 /* 768px以下の場合のレイアウト */
