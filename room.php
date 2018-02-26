@@ -32,7 +32,7 @@
 	<div id="roomnav">
 		<nav>
 			<ul>
-				<li><a href="#"><img src="#"></a></li>
+				<li><a href=""><img src="images/goemon_kamon.png"></a></li>
 				<li><a href="#"><img src="#"></a></li>
 				<li><a href="#"><img src="#"></a></li>
 			</ul>
@@ -50,7 +50,7 @@
 		場所であることに気づく</p>
 	</div><!-- /roomabout -->
 	<div id="roomgoemon">
-		<img src="#" class="roomtitle">
+		<img src="images/goemon.png" class="roomtitle">
 		<div class="roomcenter">
 			<img class="roomkamon" src="#">
 			<div class="roomdetail">
@@ -74,7 +74,7 @@
 		<img src="#">
 	</div><!-- /roomgoemon -->
 	<div id="roombenkei">
-		<img src="#" class="roomtitle">
+		<img src="" class="roomtitle">
 		<div class="roomcenter">
 			<img class="roomkamon" src="#">
 			<div class="roomdetail">
