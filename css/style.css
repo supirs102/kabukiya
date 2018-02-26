@@ -74,13 +74,14 @@ header {
 }
 header h1 {
 	width: 24vw;
-	min-width: 300px;
-	min-height: 205px;
+	min-width: 288px;
 	height: 30vh;
+	min-height: 202px;
 	background-image: url(../images/title.jpg);
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 	display: block;
-	margin: 80px auto 70px auto;
+	margin: 100px auto 80px auto;
 }
 header div#headernav nav ul {
 	text-align: center;
@@ -90,17 +91,17 @@ header div#headernav nav ul li {
 	display: inline-block;
 	vertical-align: top;
 	text-align: left;
-	margin: 5px;
+	margin: 0;
+	width: 50px;
 }
 header div#headernav nav ul li a {
 	display: block;
 	background-color: white;
-	padding: 2px;
-	padding-left: 10px;
+	padding: 10px 3px 0 10px;
 }
 header div#headernav nav ul li a span {
 	font-size: 16px;
-	letter-spacing: 8px;
+	letter-spacing: 18px;
 }
 header div#headernav nav ul li a span.kana {
 	font-size: 10px;
@@ -191,24 +192,25 @@ div.main {
 	overflow: scroll;
 	position: relative;
 }
+div.main h2 {
+	writing-mode: vertical-rl;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+div.main h2 span {
+	font-size: 35px;
+	letter-spacing: 40px;
+}
+div.main h2 span.kana {
+	font-size: 19px;
+	letter-spacing: 14px;
+}
 
 /* room.php用 */
 div#roommain {
-	background-color: navy;
-}
-div#roommain h2 {
-	writing-mode: vertical-rl;
-	position: absolute;
-	top: 20px;
-	left: 20px;
-}
-div#roommain h2 span {
-	font-size: 16px;
-	letter-spacing: 8px;
-}
-div#roommain h2 span.kana {
-	font-size: 10px;
-	letter-spacing: 3px;
+	background-color: #000040;
+	position: relative;
 }
 div#roommain div#roomnav nav ul {
 	text-align: center;
@@ -224,7 +226,7 @@ div#roomabout {
 }
 div#roomgoemon {
 	width: 100%;
-	background: linear-gradient(180deg,navy 0%,navy 30%,red 30%,red 100%);
+	background: linear-gradient(180deg,#000040 0%,#000040 30%,red 30%,red 100%);
 }
 div#roombenkei {
 	width: 100%;
@@ -258,20 +260,6 @@ div#mealmain {
 	background-color: black;
 	position: relative;
 }
-div#mealmain h2 {
-	writing-mode: vertical-rl;
-	position: absolute;
-	top: 20px;
-	left: 20px;
-}
-div#mealmain h2 span {
-	font-size: 16px;
-	letter-spacing: 8px;
-}
-div#mealmain h2 span.kana {
-	font-size: 10px;
-	letter-spacing: 3px;
-}
 img#mealtitle {
 	width: 261px;
 	height: 304px;
@@ -296,20 +284,6 @@ div#mealpart2 {
 div#bathmain {
 	background-color: #8e5100;
 	position: relative;
-}
-div#bathmain h2 {
-	writing-mode: vertical-rl;
-	position: absolute;
-	top: 20px;
-	left: 20px;
-}
-div#bathmain h2 span {
-	font-size: 16px;
-	letter-spacing: 8px;
-}
-div#bathmain h2 span.kana {
-	font-size: 10px;
-	letter-spacing: 3px;
 }
 img#bathtitle1 {
 	width: 261px;
@@ -341,20 +315,6 @@ div#guidemain {
 	background-color: #3a1212;
 	position: relative;
 }
-div#guidemain h2 {
-	writing-mode: vertical-rl;
-	position: absolute;
-	top: 20px;
-	left: 20px;
-}
-div#guidemain h2 span {
-	font-size: 16px;
-	letter-spacing: 8px;
-}
-div#guidemain h2 span.kana {
-	font-size: 10px;
-	letter-spacing: 3px;
-}
 img#guidetitle1 {
 	width: 261px;
 	height: 304px;
@@ -378,20 +338,6 @@ div#guidepart1 {
 div#reservemain {
 	background-color: #004000;
 	position: relative;
-}
-div#reservemain h2 {
-	writing-mode: vertical-rl;
-	position: absolute;
-	top: 20px;
-	left: 20px;
-}
-div#reservemain h2 span {
-	font-size: 16px;
-	letter-spacing: 8px;
-}
-div#reservemain h2 span.kana {
-	font-size: 10px;
-	letter-spacing: 3px;
 }
 img#reservetitle1 {
 	width: 261px;
