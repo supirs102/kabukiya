@@ -375,6 +375,34 @@ div#guidepart1 {
 	writing-mode: vertical-rl;
 }
 /* reservation.php用 */
+div#reservemain {
+	background-color: #004000;
+	position: relative;
+}
+div#reservemain h2 {
+	writing-mode: vertical-rl;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+div#reservemain h2 span {
+	font-size: 16px;
+	letter-spacing: 8px;
+}
+div#reservemain h2 span.kana {
+	font-size: 10px;
+	letter-spacing: 3px;
+}
+img#reservetitle1 {
+	width: 261px;
+	height: 304px;
+	display: block;
+	margin: 20px auto;
+}
+div#reserveabout {
+	writing-mode: vertical-rl;
+	margin: 0 auto;
+}
 
 /* 768px以下の場合のレイアウト */
 /* @media screen and (max-width:768px) {} */
