@@ -54,7 +54,7 @@ border-spacing: 0;
 }
 body {
 	width: 100vw;
-	min-width: 1000px;
+	min-width: 1100px;
 }
 #wrapper {
 	width: 96%;
@@ -189,7 +189,12 @@ div.main {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: auto;
+<<<<<<< HEAD
 	overflow: auto;
+=======
+	overflow-x: hidden;
+	overflow-y: auto;
+>>>>>>> 815d760601a91d5a4dc09d56c6256584a99b27ed
 	position: relative;
 }
 div.main h2 {
@@ -254,9 +259,13 @@ img.roomtitle {
 }
 div.roomcenter {
 	position: relative;
+<<<<<<< HEAD
 	width: 100%;
 	margin: 100px auto 90px auto;
 	text-align: center;
+=======
+	margin: 100px 0 90px 100px;
+>>>>>>> 815d760601a91d5a4dc09d56c6256584a99b27ed
 }
 div.roomdetail {
 	writing-mode: vertical-rl;
@@ -265,6 +274,8 @@ img.roomkamon {
 	width: 100px;
 	height: 100px;
 	float: left;
+	margin-top: 50px;
+	opacity: 0.5;
 }
 img.roomtype1 {
 	width: 413px;
