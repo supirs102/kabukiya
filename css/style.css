@@ -253,5 +253,48 @@ img.roomkamon {
 	float: left;
 }
 
+/* meal.php用 */
+div#mealmain {
+	background-color: black;
+	position: relative;
+}
+div#mealmain h2 {
+	writing-mode: vertical-rl;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+div#mealmain h2 span {
+	font-size: 16px;
+	letter-spacing: 8px;
+}
+div#mealmain h2 span.kana {
+	font-size: 10px;
+	letter-spacing: 3px;
+}
+img.mealtitle {
+	width: 261px;
+	height: 304px;
+	display: block;
+	margin: 20px auto;
+}
+div#mealabout {
+	writing-mode: vertical-rl;
+	margin: 0 auto;
+}
+div#mealpart1 {
+	width: 100%;
+	height: 1100px;
+	writing-mode: vertical-rl;
+	background: linear-gradient(45deg,black 0%,black 40%,red 40%,red 43%,black 43%,black 100%);
+}
+div#mealpart2 {
+	writing-mode: vertical-rl;
+}
+
+/* bath.php用 */
+/* guide.php用 */
+/* reservation.php用 */
+
 /* 768px以下の場合のレイアウト */
 /* @media screen and (max-width:768px) {} */

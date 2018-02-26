@@ -27,7 +27,43 @@
 		</nav>
 	</div><!-- /heaernav -->
 </header><!-- /header -->
-<div class="main" id="mealmain"></div><!-- /mealmain -->
+<div class="main" id="mealmain">
+	<h2><span class="kana">OSHOKUJI</span><br><span>おしょくじ</span></h2>
+	<img class="mealtitle" src="#">
+	<div id="mealabout">
+		<p>一羽のホオジロが、<br>
+		水波の部屋のテラスに<br>
+		降り立つのが見える<br>
+		池の浅瀬ではセグロセキレイが<br>
+		水浴びをしていた</p>
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+	</div><!-- /mealabout -->
+	<img src="#">
+	<div id="mealpart1">
+	<img src="#">
+		<p>一羽のホオジロが、<br>
+		水波の部屋のテラスに<br>
+		降り立つのが見える<br>
+		池の浅瀬ではセグロセキレイが<br>
+		水浴びをしていた</p>
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+		<img src="#">
+	</div><!-- /mealpart1 -->
+	<div id="mealpart2">
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+		<img src="#">
+		<img src="#">
+	</div><!-- /mealpart2 -->
+</div><!-- /mealmain -->
 <footer>
 	<div id="footerdata">
 		<span class="kana">かぶきや</span><br>
