@@ -32,9 +32,9 @@
 	<div id="roomnav">
 		<nav>
 			<ul>
-				<li><a href=""><img src="images/goemon_kamon.png"></a></li>
-				<li><a href="#"><img src="#"></a></li>
-				<li><a href="#"><img src="#"></a></li>
+				<li><a href="#"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a href="#"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a href="#"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
 			</ul>
 		</nav>
 	</div><!-- /roomnav -->

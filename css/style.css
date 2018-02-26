@@ -105,7 +105,7 @@ header div#headernav nav ul li a span {
 }
 header div#headernav nav ul li a span.kana {
 	font-size: 10px;
-	letter-spacing: 3px;
+	letter-spacing: 5px;
 }
 
 /* look用 */
@@ -212,13 +212,13 @@ div#roommain {
 	background-color: #000040;
 	position: relative;
 }
-div#roommain div#roomnav nav ul {
+div#roomnav nav ul {
 	text-align: center;
 }
-div#roommain div#roomnav nav ul li {
+div#roomnav nav ul li {
 	writing-mode: vertical-rl;
 	display: inline-block;
-	margin: 40px 20px;
+	margin: 125px 20px 100px 20px;
 }
 div#roomabout {
 	writing-mode: vertical-rl;
