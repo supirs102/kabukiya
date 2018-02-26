@@ -69,12 +69,12 @@
 				場所であることに気づく</p>
 			</div><!-- /roomdetail -->
 		</div><!-- /roomcenter -->
-		<img src="#">
-		<img src="#">
-		<img src="#">
+		<img src="images/heya1.png">
+		<img src="images/heya2.png">
+		<img src="images/heya2.png">
 	</div><!-- /roomgoemon -->
 	<div id="roombenkei">
-		<img src="" class="roomtitle">
+		<img src="images/goemon.png" class="roomtitle">
 		<div class="roomcenter">
 			<img class="roomkamon" src="#">
 			<div class="roomdetail">
@@ -93,12 +93,12 @@
 				場所であることに気づく</p>
 			</div><!-- /roomdetail -->
 		</div><!-- /roomcenter -->
-		<img src="#">
-		<img src="#">
-		<img src="#">
+		<img src="images/heya1.png">
+		<img src="images/heya2.png">
+		<img src="images/heya2.png">
 	</div><!-- /roombenkei -->
 	<div id="roomkamakura">
-		<img src="#" class="roomtitle">
+		<img src="images/goemon.png" class="roomtitle">
 		<div class="roomcenter">
 			<img class="roomkamon" src="#">
 			<div class="roomdetail">
@@ -117,9 +117,9 @@
 				場所であることに気づく</p>
 			</div><!-- /roomdetail -->
 		</div><!-- /roomcenter -->
-		<img src="#">
-		<img src="#">
-		<img src="#">
+		<img src="images/heya1.png">
+		<img src="images/heya2.png">
+		<img src="images/heya2.png">
 	</div><!-- /roomkamakura -->
 </div><!-- /roommain -->
 <footer>
