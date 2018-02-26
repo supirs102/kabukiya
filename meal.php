@@ -29,7 +29,7 @@
 </header><!-- /header -->
 <div class="main" id="mealmain">
 	<h2><span class="kana">OSHOKUJI</span><br><span>おしょくじ</span></h2>
-	<img class="mealtitle" src="#">
+	<img id="mealtitle" src="#">
 	<div id="mealabout">
 		<p>一羽のホオジロが、<br>
 		水波の部屋のテラスに<br>
@@ -43,7 +43,7 @@
 	</div><!-- /mealabout -->
 	<img src="#">
 	<div id="mealpart1">
-	<img src="#">
+		<img src="#">
 		<p>一羽のホオジロが、<br>
 		水波の部屋のテラスに<br>
 		降り立つのが見える<br>
