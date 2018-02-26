@@ -52,7 +52,7 @@
 	<div id="roomgoemon">
 		<img src="images/goemon.png" class="roomtitle">
 		<div class="roomcenter">
-			<img class="roomkamon" src="#">
+			<img class="roomkamon" src="images/kamonrei1.png">
 			<div class="roomdetail">
 				<p>一羽のホオジロが、<br>
 				水波の部屋のテラスに<br>
@@ -76,7 +76,7 @@
 	<div id="roombenkei">
 		<img src="images/goemon.png" class="roomtitle">
 		<div class="roomcenter">
-			<img class="roomkamon" src="#">
+			<img class="roomkamon" src="images/kamonrei1.png">
 			<div class="roomdetail">
 				<p>一羽のホオジロが、<br>
 				水波の部屋のテラスに<br>
@@ -100,7 +100,7 @@
 	<div id="roomkamakura">
 		<img src="images/goemon.png" class="roomtitle">
 		<div class="roomcenter">
-			<img class="roomkamon" src="#">
+			<img class="roomkamon" src="images/kamonrei1.png">
 			<div class="roomdetail">
 				<p>一羽のホオジロが、<br>
 				水波の部屋のテラスに<br>
