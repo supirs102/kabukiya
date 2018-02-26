@@ -189,7 +189,7 @@ div.main {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: auto;
-	overflow: scroll;
+	overflow: auto;
 	position: relative;
 }
 div.main h2 {
@@ -254,7 +254,9 @@ img.roomtitle {
 }
 div.roomcenter {
 	position: relative;
+	width: 100%;
 	margin: 100px auto 90px auto;
+	text-align: center;
 }
 div.roomdetail {
 	writing-mode: vertical-rl;
