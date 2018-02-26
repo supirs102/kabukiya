@@ -32,9 +32,9 @@
 	<div id="roomnav">
 		<nav>
 			<ul>
-				<li><a href="#"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
-				<li><a href="#"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
-				<li><a href="#"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a href="#roomgoemon"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a href="#roombenkei"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a href="#roomkamakura"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
 			</ul>
 		</nav>
 	</div><!-- /roomnav -->
@@ -69,9 +69,9 @@
 				場所であることに気づく</p>
 			</div><!-- /roomdetail -->
 		</div><!-- /roomcenter -->
-		<img src="images/heya1.png">
-		<img src="images/heya2.png">
-		<img src="images/heya2.png">
+		<img class="roomtype1" src="images/heya1.png"><br>
+		<img class="roomtype2" src="images/heya2.png">
+		<img class="roomtype2" src="images/heya2.png">
 	</div><!-- /roomgoemon -->
 	<div id="roombenkei">
 		<img src="images/goemon.png" class="roomtitle">
@@ -93,9 +93,9 @@
 				場所であることに気づく</p>
 			</div><!-- /roomdetail -->
 		</div><!-- /roomcenter -->
-		<img src="images/heya1.png">
-		<img src="images/heya2.png">
-		<img src="images/heya2.png">
+		<img class="roomtype1" src="images/heya1.png"><br>
+		<img class="roomtype2" src="images/heya2.png">
+		<img class="roomtype2" src="images/heya2.png">
 	</div><!-- /roombenkei -->
 	<div id="roomkamakura">
 		<img src="images/goemon.png" class="roomtitle">
@@ -117,9 +117,9 @@
 				場所であることに気づく</p>
 			</div><!-- /roomdetail -->
 		</div><!-- /roomcenter -->
-		<img src="images/heya1.png">
-		<img src="images/heya2.png">
-		<img src="images/heya2.png">
+		<img class="roomtype1" src="images/heya1.png"><br>
+		<img class="roomtype2" src="images/heya2.png">
+		<img class="roomtype2" src="images/heya2.png">
 	</div><!-- /roomkamakura -->
 </div><!-- /roommain -->
 <footer>

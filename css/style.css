@@ -212,39 +212,49 @@ div#roommain {
 	background-color: #000040;
 	position: relative;
 }
+div#roommain p {
+	font-size: 10px;
+	letter-spacing: 10px;
+	line-height: 20px;
+	margin: 0 20px;
+	text-align: left;
+}
 div#roomnav nav ul {
 	text-align: center;
 }
 div#roomnav nav ul li {
 	writing-mode: vertical-rl;
 	display: inline-block;
-	margin: 125px 20px 100px 20px;
+	margin: 125px 30px 100px 30px;
 }
 div#roomabout {
 	writing-mode: vertical-rl;
-	margin: 0 auto;
+	margin: 0 auto 100px auto;
 }
 div#roomgoemon {
 	width: 100%;
-	background: linear-gradient(180deg,#000040 0%,#000040 30%,red 30%,red 100%);
+	background: linear-gradient(180deg,#000040 0%,#000040 12%,red 12%,red 100%);
+	text-align: center;
 }
 div#roombenkei {
 	width: 100%;
-	background: linear-gradient(180deg,red 0%,red 30%,black 30%,black 100%);
+	background: linear-gradient(180deg,red 0%,red 12%,black 12%,black 100%);
+	text-align: center;
 }
 div#roomkamakura {
 	width: 100%;
-	background: linear-gradient(180deg,black 0%,black 30%,#c39143 30%,#c39143 100%);
+	background: linear-gradient(180deg,black 0%,black 12%,#c39143 12%,#c39143 100%);
+	text-align: center;
 }
 img.roomtitle {
-	width: 261px;
-	height: 304px;
+	width: 391px;
+	height: 456px;
 	display: block;
 	margin: 0 auto;
 }
 div.roomcenter {
 	position: relative;
-	margin: 30px;
+	margin: 100px auto 90px auto;
 }
 div.roomdetail {
 	writing-mode: vertical-rl;
@@ -253,6 +263,16 @@ img.roomkamon {
 	width: 100px;
 	height: 100px;
 	float: left;
+}
+img.roomtype1 {
+	width: 413px;
+	height: 280px;
+	margin-bottom: 30px;
+}
+img.roomtype2 {
+	width: 217px;
+	height: 336px;
+	margin: 0 10px 200px 10px;
 }
 
 /* meal.php用 */
