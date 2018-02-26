@@ -272,7 +272,7 @@ div#mealmain h2 span.kana {
 	font-size: 10px;
 	letter-spacing: 3px;
 }
-img.mealtitle {
+img#mealtitle {
 	width: 261px;
 	height: 304px;
 	display: block;
@@ -293,6 +293,49 @@ div#mealpart2 {
 }
 
 /* bath.php用 */
+div#bathmain {
+	background-color: #8e5100;
+	position: relative;
+}
+div#bathmain h2 {
+	writing-mode: vertical-rl;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+div#bathmain h2 span {
+	font-size: 16px;
+	letter-spacing: 8px;
+}
+div#bathmain h2 span.kana {
+	font-size: 10px;
+	letter-spacing: 3px;
+}
+img#bathtitle1 {
+	width: 261px;
+	height: 304px;
+	display: block;
+	margin: 20px auto;
+}
+div#bathabout {
+	writing-mode: vertical-rl;
+	margin: 0 auto;
+}
+img#bathtitle2 {
+	width: 304px;
+	height: 261px;
+	display: block;
+	margin: 20px auto;
+}
+div#bathpart1 {
+	writing-mode: vertical-rl;
+	margin: 0 auto;
+}
+div#bathpart2 {
+	writing-mode: vertical-rl;
+	margin: 0 auto;
+}
+
 /* guide.php用 */
 /* reservation.php用 */
 

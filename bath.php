@@ -27,7 +27,42 @@
 		</nav>
 	</div><!-- /heaernav -->
 </header><!-- /header -->
-<div class="main" id="bathmain"></div><!-- /bathmain -->
+<div class="main" id="bathmain">
+	<h2><span class="kana">OHURO</span><br><span>おふろ</span></h2>
+	<img id="bathtitle1" src="#">
+	<div id="bathabout">
+		<p>一羽のホオジロが、<br>
+		水波の部屋のテラスに<br>
+		降り立つのが見える<br>
+		池の浅瀬ではセグロセキレイが<br>
+		水浴びをしていた</p>
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+	</div><!-- /bathabout -->
+	<img id="bathtitle2" src="#">
+	<div id="bathpart1">
+		<img src="#">
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+	</div><!-- /bathpart1 -->
+	<div id="bathpart2">
+		<p>一羽のホオジロが、<br>
+		水波の部屋のテラスに<br>
+		降り立つのが見える<br>
+		池の浅瀬ではセグロセキレイが<br>
+		水浴びをしていた</p>
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+		<img src="#">
+	</div><!-- /bathpart2 -->
+	<img src="#">
+</div><!-- /bathmain -->
 <footer>
 	<div id="footerdata">
 		<span class="kana">かぶきや</span><br>
