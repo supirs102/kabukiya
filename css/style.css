@@ -265,6 +265,7 @@ img.roomkamon {
 	height: 100px;
 	float: left;
 	margin-top: 50px;
+	opacity: 0.5;
 }
 img.roomtype1 {
 	width: 413px;
