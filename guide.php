@@ -29,7 +29,7 @@
 </header><!-- /header -->
 <div class="main" id="guidemain">
 	<h2><span class="kana">GOANNAI</span><br><span>ごあんない</span></h2>
-	<img id="guidetitle1" src="#">
+	<img id="guidetitle1" src="images/goannai_top.png">
 	<div id="guideabout">
 		<p>一羽のホオジロが、<br>
 		水波の部屋のテラスに<br>
@@ -41,7 +41,7 @@
 		生態系に恵まれている<br>
 		場所であることに気づく</p>
 	</div><!-- /guideabout -->
-	<img id="guidetitle2" src="#">
+	<img id="guidetitle2" src="images/goannai2.png">
 	<div id="guidepart1">
 		<p>一羽のホオジロが、<br>
 		水波の部屋のテラスに<br>
