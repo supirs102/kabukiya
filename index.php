@@ -17,17 +17,17 @@
 	<div id="headernav">
 		<nav>
 			<ul>
-				<li><a href="reservation.php"><span class="kana">GOYOYAKU</span><br><span>ごよやく</span></a></li>
-				<li><a href="guide.php"><span class="kana">GOANNAI</span><br><span>ごあんない</span></a></li>
-				<li><a href="bath.php"><span class="kana">OHURO</span><br><span>おふろ</span></a></li>
-				<li><a href="meal.php"><span class="kana">OSHOKUJI</span><br><span>おしょくじ</span></a></li>
-				<li><a href="room.php"><span class="kana">OHEYA</span><br><span>おへや</span></a></li>
-				<li><a href="index.php"><span class="kana">KABUKIYA</span><br><span>かぶきや</span></a></li>
+				<li><a class="goyoyakulink" href="reservation.php"><span class="kana">GOYOYAKU</span><br><span>ごよやく</span></a></li>
+				<li><a class="goannailink" href="guide.php"><span class="kana">GOANNAI</span><br><span>ごあんない</span></a></li>
+				<li><a class="ohurolink" href="bath.php"><span class="kana">OHURO</span><br><span>おふろ</span></a></li>
+				<li><a class="oshokujilink" href="meal.php"><span class="kana">OSHOKUJI</span><br><span>おしょくじ</span></a></li>
+				<li><a class="oheyalink" href="room.php"><span class="kana">OHEYA</span><br><span>おへや</span></a></li>
+				<li><a class="kabukiyalink" href="index.php"><span class="kana">KABUKIYA</span><br><span>かぶきや</span></a></li>
 			</ul>
 		</nav>
 	</div><!-- /heaernav -->
 </header><!-- /header -->
-<div id="look"></div><!-- /look -->
+<div class="main" id="look"></div><!-- /look -->
 <footer>
 	<div id="footerdata">
 		<span class="kana">かぶきや</span><br>
