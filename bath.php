@@ -29,7 +29,7 @@
 </header><!-- /header -->
 <div class="main" id="bathmain">
 	<h2><span class="kana">OHURO</span><br><span>おふろ</span></h2>
-	<img id="bathtitle1" src="#">
+	<img id="bathtitle1" src="images/ofuro_top.png">
 	<div id="bathabout">
 		<p>一羽のホオジロが、<br>
 		水波の部屋のテラスに<br>
@@ -41,9 +41,9 @@
 		生態系に恵まれている<br>
 		場所であることに気づく</p>
 	</div><!-- /bathabout -->
-	<img id="bathtitle2" src="#">
+	<img id="bathtitle2" src="images/ofuro2.png">
 	<div id="bathpart1">
-		<img src="#">
+		<img src="images/osyokuji4.png">
 		<p>星のや軽井沢に足を<br>
 		踏み入れるとすぐに、豊かな<br>
 		生態系に恵まれている<br>
@@ -59,9 +59,9 @@
 		踏み入れるとすぐに、豊かな<br>
 		生態系に恵まれている<br>
 		場所であることに気づく</p>
-		<img src="#">
+		<img src="images/osyokuji4.png"">
 	</div><!-- /bathpart2 -->
-	<img src="#">
+	<img src="images/osyokuji2.png"">
 </div><!-- /bathmain -->
 <footer>
 	<div id="footerdata">
