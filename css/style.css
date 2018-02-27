@@ -371,29 +371,57 @@ div#bathmain {
 	background-color: #8e5100;
 	position: relative;
 }
+div#bathmain p {
+	font-size: 10px;
+	letter-spacing: 10px;
+	line-height: 20px;
+	margin: 0 20px;
+	text-align: left;
+}
 img#bathtitle1 {
 	width: 261px;
 	height: 304px;
 	display: block;
-	margin: 20px auto;
+	margin: 50px auto;
 }
 div#bathabout {
 	writing-mode: vertical-rl;
-	margin: 0 auto;
+	margin: 100px auto;
 }
 img#bathtitle2 {
-	width: 304px;
-	height: 261px;
+	width: 414px;
+	height: 308px;
 	display: block;
 	margin: 20px auto;
 }
 div#bathpart1 {
 	writing-mode: vertical-rl;
-	margin: 0 auto;
+	margin: 150px auto 0 auto;
+}
+img.bathtype1 {
+	width: 193px;
+	height: 310px;
+	margin-top: 50px;
+	margin-left: 40px;
 }
 div#bathpart2 {
 	writing-mode: vertical-rl;
-	margin: 0 auto;
+	margin: 100px auto 0 auto;
+}
+div#bathpart2 p {
+	margin-top: 100px;
+}
+img.bathtype2 {
+	width: 193px;
+	height: 310px;
+	margin-right: 40px;
+}
+img.bathtype3 {
+	width: 465px;
+	height: 300px;
+	margin-top: 100px;
+	margin-bottom: 200px;
+	margin-left: 15%;
 }
 
 /* guide.php用 */

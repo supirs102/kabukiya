@@ -43,7 +43,7 @@
 	</div><!-- /bathabout -->
 	<img id="bathtitle2" src="images/ofuro2.png">
 	<div id="bathpart1">
-		<img src="images/osyokuji4.png">
+		<img src="images/osyokuji4.png" class="bathtype1">
 		<p>星のや軽井沢に足を<br>
 		踏み入れるとすぐに、豊かな<br>
 		生態系に恵まれている<br>
@@ -59,9 +59,9 @@
 		踏み入れるとすぐに、豊かな<br>
 		生態系に恵まれている<br>
 		場所であることに気づく</p>
-		<img src="images/osyokuji4.png"">
+		<img src="images/osyokuji4.png" class="bathtype2">
 	</div><!-- /bathpart2 -->
-	<img src="images/osyokuji2.png"">
+	<img src="images/osyokuji2.png" class="bathtype3">
 </div><!-- /bathmain -->
 <footer>
 	<div id="footerdata">
