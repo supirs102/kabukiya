@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 <title>おへや&emsp;|&emsp;歌舞伎屋</title>
 <link rel="stylesheet" href="css/style.css" type="text/css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/main.js"></script>
 <link rel="icon" type="image/vnd.microsoft.icon" href="#">
 </head>
@@ -33,9 +33,9 @@
 	<div id="roomnav">
 		<nav>
 			<ul>
-				<li><a href="#roomgoemon" data-box=".scroll"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
-				<li><a href="#roombenkei" data-box=".scroll"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
-				<li><a href="#roomkamakura" data-box=".scroll"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a href="#roomgoemon" data-box="#roommain"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a href="#roombenkei" data-box="#roommain"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a href="#roomkamakura" data-box="#roommain"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
 			</ul>
 		</nav>
 	</div><!-- /roomnav -->

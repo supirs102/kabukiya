@@ -1,39 +1,21 @@
-/* Copyright(C) 2009 web design lab (http://www.webdlab.com/) Licensed under the MIT License http://www.opensource.org/licenses/mit-license.php */
-/*------------------------------------------------------------------*/
-function time(){
-if(Math.abs(current_y - target_y)<Math.abs(speed)){
-window.scrollTo((document.body.scrollTop || document.documentElement.scrollTop),target_y);
-clearInterval(timer);
-return false;
-}else{
-window.scrollBy(0,speed);
-current_y += speed;
-}
-}
-function move(val){
-speed = 50;
-smooth = 25;
-current_y = document.body.scrollTop || document.documentElement.scrollTop;
-path = '' + val;
-target = path.split('#');
-element = document.getElementById(target[1]);
-target_y = 0;
-for(i = element;i.offsetParent;i = i.offsetParent){
-target_y += i.offsetTop;
-}
-if(current_y > target_y){
-speed = -(speed);
-}
-timer = setInterval('time()',smooth);
-return false;
-}
-function act(){
-var a = document.querySelectorAll('a[href^="#"]');
-for(var i=0; i < a.length; i++){
-a[i].onclick = function(){
-move(this);
-return false;
-}
-}
-}
-window.addEventListener('DOMContentLoaded',act,false);
+$(function(){
+	$("a[href^='#']").click(function(){
+		
+		//data-box属性がない場合は通常のスムーズスクロール
+		if(!$(this).data("box")){
+			$("body,html").stop().animate({
+				scrollTop:$($(this).attr("href")).offset().top
+			});
+			
+		//data-box属性がある場合はdata-box内をスムーズスクロール
+		}else{
+			var $box = $($(this).data("box"));
+			var $tareget = $($(this).attr("href"));
+			var dist = $tareget.position().top - $box.position().top;
+			$box.stop().animate({
+				scrollTop: $box.scrollTop() + dist
+			}, 1500);
+		}
+		return false;
+	});
+});
