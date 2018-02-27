@@ -83,6 +83,7 @@
 		</nav>
 	</div><!-- /footernav -->
 </footer><!-- /footer -->
+<div id="filter"></div><!-- /filter -->
 </div><!-- /wrapper -->
 </body>
 </html>

@@ -115,6 +115,7 @@ div#look {
 	width: 50%;
 	height: 94vh;
 	min-height: 650px;
+	overflow: hidden;
 	/* background-image: url(../images/top_face.png);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -196,7 +197,7 @@ footer div#footernav nav ul li a {
 	height: 150%;
 	left: 0;
 	top: 0;
-	background-image: url('../images/haikeikurame.png');
+	background-image: url('../images/haikeiwasi2.png');
 	background-repeat: repeat;
 	/* filter: alpha(opacity=60);
 	-moz-opacity: 0.60;
