@@ -30,7 +30,7 @@
 </header><!-- /header -->
 <div class="main" id="reservemain">
 	<h2><span class="kana">GOYOYAKU</span><br><span>ごよやく</span></h2>
-	<img id="reservetitle1" src="#">
+	<img id="reservetitle1" src="images/goannai_top.png">
 	<div id="reserveabout">
 		<p>一羽のホオジロが、<br>
 		水波の部屋のテラスに<br>
@@ -120,9 +120,9 @@
 	<div id="footernav">
 		<nav>
 			<ul>
-				<li><a href="#">いんすたぐらむ</a></li>
-				<li><a href="#">おといあわせ</a></li>
-				<li><a href="#">ちず</a></li>
+				<li><a href="https://www.instagram.com/">いんすたぐらむ</a></li>
+				<li><a href="mailto:sample@sample.com">おといあわせ</a></li>
+				<li><a href="https://goo.gl/maps/z6YffEgEyQJ2">ちず</a></li>
 			</ul>
 		</nav>
 	</div><!-- /footernav -->

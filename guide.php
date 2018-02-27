@@ -65,9 +65,9 @@
 	<div id="footernav">
 		<nav>
 			<ul>
-				<li><a href="#">いんすたぐらむ</a></li>
-				<li><a href="#">おといあわせ</a></li>
-				<li><a href="#">ちず</a></li>
+				<li><a href="https://www.instagram.com/">いんすたぐらむ</a></li>
+				<li><a href="mailto:sample@sample.com">おといあわせ</a></li>
+				<li><a href="https://goo.gl/maps/z6YffEgEyQJ2">ちず</a></li>
 			</ul>
 		</nav>
 	</div><!-- /footernav -->
