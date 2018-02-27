@@ -7,7 +7,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 <title>歌舞伎屋</title>
 <link rel="stylesheet" href="css/style.css" type="text/css">
-<script src="js/main.js" type="text/javascript"></script>
+<script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <link rel="icon" type="image/vnd.microsoft.icon" href="#">
 </head>
 <body>
@@ -39,9 +40,9 @@
 	<div id="footernav">
 		<nav>
 			<ul>
-				<li><a href="#">いんすたぐらむ</a></li>
-				<li><a href="#">おといあわせ</a></li>
-				<li><a href="#">ちず</a></li>
+				<li><a href="https://www.instagram.com/">いんすたぐらむ</a></li>
+				<li><a href="mailto:sample@sample.com">おといあわせ</a></li>
+				<li><a href="https://goo.gl/maps/z6YffEgEyQJ2">ちず</a></li>
 			</ul>
 		</nav>
 	</div><!-- /footernav -->
