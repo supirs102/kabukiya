@@ -28,7 +28,9 @@
 		</nav>
 	</div><!-- /heaernav -->
 </header><!-- /header -->
-<div class="main" id="look"></div><!-- /look -->
+<div class="main" id="look">
+	<img src="images/top_face.png">
+</div><!-- /look -->
 <footer>
 	<div id="footerdata">
 		<span class="kana">かぶきや</span><br>
