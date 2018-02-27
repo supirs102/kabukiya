@@ -1,16 +1,4 @@
 $(function(){
-	$('.goyoyakulink')
-		.on('mouseover', function(){
-			$('.main').animate({
-				backgroundImage: url('../images/goannai_top.png')
-			}, 500);
-		})
-		.on('mouseout', function(){
-			$('.main').animate({
-				backgroundImage: url('../images/ofuro_top.png')
-			}, 500);
-		});
-
 	$("a[href^='#']").click(function(){
 		if(!$(this).data("box")){
 			$("body,html").stop().animate({
