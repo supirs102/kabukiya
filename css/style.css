@@ -463,15 +463,22 @@ div#reservemain {
 	background-color: #004000;
 	position: relative;
 }
+div#reservemain p {
+	font-size: 10px;
+	letter-spacing: 10px;
+	line-height: 20px;
+	margin: 0 20px;
+	text-align: left;
+}
 img#reservetitle1 {
 	width: 261px;
-	height: 304px;
+	height: 395px;
 	display: block;
-	margin: 20px auto;
+	margin: 50px auto;
 }
 div#reserveabout {
 	writing-mode: vertical-rl;
-	margin: 0 auto;
+	margin: 150px auto;
 }
 
 /* 768px以下の場合のレイアウト */
