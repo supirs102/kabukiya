@@ -32,9 +32,9 @@
 	<div id="roomnav">
 		<nav>
 			<ul>
-				<li><a href="#roomgoemon"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
-				<li><a href="#roombenkei"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
-				<li><a href="#roomkamakura"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a href="#roomgoemon" data-box=".scroll"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a href="#roombenkei" data-box=".scroll"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a href="#roomkamakura" data-box=".scroll"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
 			</ul>
 		</nav>
 	</div><!-- /roomnav -->
