@@ -199,9 +199,7 @@ footer div#footernav nav ul li a {
 	top: 0;
 	background-image: url('../images/haikeiwasi2.png');
 	background-repeat: repeat;
-	/* filter: alpha(opacity=60);
-	-moz-opacity: 0.60;
-	opacity: 0.60; */
+	opacity: 0.9;
 	z-index: 100;
 	pointer-events: none;
 	mix-blend-mode: multiply;
