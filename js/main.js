@@ -14,7 +14,7 @@ $(function(){
 			var dist = $tareget.position().top - $box.position().top;
 			$box.stop().animate({
 				scrollTop: $box.scrollTop() + dist
-			}, 1500);
+			}, 1000);
 		}
 		return false;
 	});
