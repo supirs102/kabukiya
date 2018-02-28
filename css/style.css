@@ -348,16 +348,17 @@ img#mealtitle {
 	width: 312px;
 	height: 474px;
 	display: block;
-	margin: 50px auto;
+	margin: 50px auto 150px auto;
 }
 div#mealabout {
 	writing-mode: vertical-rl;
-	margin: 150px auto;
+	margin: 0 auto;
 }
 img.mealtype1 {
 	width: 392px;
 	height: 259px;
 	margin-right: 5vw;
+	margin-top: 150px;
 	margin-bottom: 150px;
 	float: right;
 }
@@ -424,17 +425,17 @@ img#bathtitle1 {
 	width: 261px;
 	height: 304px;
 	display: block;
-	margin: 50px auto;
+	margin: 50px auto 150px auto;
 }
 div#bathabout {
 	writing-mode: vertical-rl;
-	margin: 100px auto;
+	margin: 0 auto;
 }
 img#bathtitle2 {
 	width: 414px;
 	height: 308px;
 	display: block;
-	margin: 20px auto;
+	margin: 20px auto 120px auto;
 }
 div#bathpart1 {
 	writing-mode: vertical-rl;
@@ -516,11 +517,14 @@ img#reservetitle1 {
 	width: 261px;
 	height: 395px;
 	display: block;
-	margin: 50px auto;
+	margin: 50px auto 150px auto;
 }
 div#reserveabout {
 	writing-mode: vertical-rl;
-	margin: 150px auto;
+	margin: 0 auto;
+}
+div#reservesystem {
+	margin-top: 150px;
 }
 
 /* 768px以下の場合のレイアウト */
