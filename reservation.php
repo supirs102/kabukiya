@@ -15,20 +15,23 @@
 </head>
 <body>
 <div id="wrapper">
-<header>
-	<img class="bgheader bg01" src="images/kin.jpg">
-	<img class="bgheader bg02" src="images/aonami.jpg">
-	<img class="bgheader bg03" src="images/nami.gif">
+<header id="linkul06">
+	<img class="bgheader bg01" src="images/goyoyakutexture.png">
+	<img class="bgheader bg02" src="images/goannnaitexture.png">
+	<img class="bgheader bg03" src="images/ofurotexture.png">
+	<img class="bgheader bg04" src="images/oshokujitexture.png">
+	<img class="bgheader bg05" src="images/oheyatexture.png">
+	<img class="bgheader bg06" src="images/kabukiyatexture.png">
 	<h1></h1>
 	<div id="headernav">
 		<nav>
 			<ul>
 				<li><a class="goyoyakulink" href="reservation.php"><span class="kana">GOYOYAKU</span><br><span>ごよやく</span></a></li>
 				<li><a class="goannailink" href="guide.php"><span class="kana">GOANNAI</span><br><span>ごあんない</span></a></li>
-				<li><a href="bath.php"><span class="kana">OHURO</span><br><span>おふろ</span></a></li>
-				<li><a href="meal.php"><span class="kana">OSHOKUJI</span><br><span>おしょくじ</span></a></li>
-				<li><a href="room.php"><span class="kana">OHEYA</span><br><span>おへや</span></a></li>
-				<li><a href="index.php"><span class="kana">KABUKIYA</span><br><span>かぶきや</span></a></li>
+				<li><a class="ofurolink" href="bath.php"><span class="kana">OFURO</span><br><span>おふろ</span></a></li>
+				<li><a class="oshokujilink" href="meal.php"><span class="kana">OSHOKUJI</span><br><span>おしょくじ</span></a></li>
+				<li><a class="oheyalink" href="room.php"><span class="kana">OHEYA</span><br><span>おへや</span></a></li>
+				<li><a class="kabukiyalink" href="index.php"><span class="kana">KABUKIYA</span><br><span>かぶきや</span></a></li>
 			</ul>
 		</nav>
 	</div><!-- /heaernav -->

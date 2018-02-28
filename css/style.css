@@ -61,7 +61,7 @@ body {
 }
 a {
 	text-decoration: none;
-	color: black;
+	color: #a53926;
 }
 div.clear-element {
 	clear: both;
@@ -97,14 +97,19 @@ header h1 {
 	min-width: 288px;
 	height: 30vh;
 	min-height: 202px;
-	background-image: url(../images/title.jpg);
-	background-size: contain;
+/* 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: top center;
-	display: block;
+	background-position: top center; */
 	margin: 100px auto 80px auto;
 	position: relative;
 	z-index: 20;
+}
+header h1 img {
+	width: 24vw;
+	min-width: 288px;
+	height: 30vh;
+	min-height: 202px;
+	object-fit: contain;
 }
 header div#headernav nav ul {
 	text-align: center;
@@ -141,14 +146,126 @@ header img.bgheader {
 	left: 0;
 	z-index: 1;
 }
-header img.bg01 {
+header img.titleheader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#linkul01 .bg06,
+#linkul01 .title06 {
 	display: block;
 }
-header img.bg02 {
+#linkul01 .bg01,
+#linkul01 .bg02,
+#linkul01 .bg03,
+#linkul01 .bg04,
+#linkul01 .bg05,
+#linkul01 .title01,
+#linkul01 .title02,
+#linkul01 .title03,
+#linkul01 .title04,
+#linkul01 .title05  {
 	display: none;
 }
-header img.bg03 {
+#linkul02 .bg05,
+#linkul02 .title05 {
+	display: block;
+}
+#linkul02 .bg01,
+#linkul02 .bg02,
+#linkul02 .bg03,
+#linkul02 .bg04,
+#linkul02 .bg06,
+#linkul02 .title01,
+#linkul02 .title02,
+#linkul02 .title03,
+#linkul02 .title04,
+#linkul02 .title06 {
 	display: none;
+}
+#linkul03 .bg04,
+#linkul03 .title04 {
+	display: block;
+}
+#linkul03 .bg01,
+#linkul03 .bg02,
+#linkul03 .bg03,
+#linkul03 .bg05,
+#linkul03 .bg06,
+#linkul03 .title01,
+#linkul03 .title02,
+#linkul03 .title03,
+#linkul03 .title05,
+#linkul03 .title06 {
+	display: none;
+}
+#linkul04 .bg03,
+#linkul04 .title03 {
+	display: block;
+}
+#linkul04 .bg01,
+#linkul04 .bg02,
+#linkul04 .bg04,
+#linkul04 .bg05,
+#linkul04 .bg06,
+#linkul04 .title01,
+#linkul04 .title02,
+#linkul04 .title04,
+#linkul04 .title05,
+#linkul04 .title06 {
+	display: none;
+}
+#linkul05 .bg02,
+#linkul05 .title02 {
+	display: block;
+}
+#linkul05 .bg01,
+#linkul05 .bg03,
+#linkul05 .bg04,
+#linkul05 .bg05,
+#linkul05 .bg06,
+#linkul05 .title01,
+#linkul05 .title03,
+#linkul05 .title04,
+#linkul05 .title05,
+#linkul05 .title06 {
+	display: none;
+}
+#linkul06 .bg01,
+#linkul06 .title01 {
+	display: block;
+}
+#linkul06 .bg02,
+#linkul06 .bg03,
+#linkul06 .bg04,
+#linkul06 .bg05,
+#linkul06 .bg06,
+#linkul06 .title02,
+#linkul06 .title03,
+#linkul06 .title04,
+#linkul06 .title05,
+#linkul06 .title06 {
+	display: none;
+}
+#linkul01 a {
+	color: #a53926;
+}
+#linkul02 a {
+	color: #04002b;
+}
+#linkul03 a {
+	color: #0b0e0f;
+}
+#linkul04 a {
+	color: #855100;
+}
+#linkul05 a {
+	color: #3a1212;
+}
+#linkul06 a {
+	color: #002100;
 }
 
 /* look用 */
@@ -242,7 +359,7 @@ footer div#footernav nav ul li a {
 	display: block;
 	width: 30px;
 	line-height: 30px;
-	background-color: red;
+	background-color: #a53926;
 	color: white;
 	padding: 5px;
 }
@@ -281,7 +398,7 @@ div.main h2 span.kana {
 
 /* room.php用 */
 div#roommain {
-	background-color: #000040;
+	background-color: #04002b;
 	position: relative;
 }
 div#roommain p {
@@ -305,19 +422,19 @@ div#roomabout {
 }
 div#roomgoemon {
 	width: 100%;
-	background: linear-gradient(180deg,#000040 0%,#000040 12%,red 12%,red 100%);
+	background: linear-gradient(180deg,#04002b 0%,#04002b 12%,#9a3021 12%,#9a3021 100%);
 	text-align: center;
 	position: relative;
 }
 div#roombenkei {
 	width: 100%;
-	background: linear-gradient(180deg,red 0%,red 12%,black 12%,black 100%);
+	background: linear-gradient(180deg,#9a3021 0%,#9a3021 12%,#000 12%,#000 100%);
 	text-align: center;
 	position: relative;
 }
 div#roomkamakura {
 	width: 100%;
-	background: linear-gradient(180deg,black 0%,black 12%,#c39143 12%,#c39143 100%);
+	background: linear-gradient(180deg,#000 0%,#000 12%,#c38000 12%,#c38000 100%);
 	text-align: center;
 	position: relative;
 }
@@ -361,7 +478,7 @@ img.roomtype2 {
 
 /* meal.php用 */
 div#mealmain {
-	background-color: black;
+	background-color: #0b0e0f;
 	position: relative;
 }
 div#mealmain p {
@@ -394,7 +511,7 @@ div#mealpart1 {
 	height: 800px;
 	margin-right: 50px;
 	writing-mode: vertical-rl;
-	background-color: black;
+	background-color: #0b0e0f;
 	/* background: linear-gradient(45deg,black 0%,black 48%,red 48%,red 51%,black 51%,black 100%); */
 }
 div#mealpart1 p {
@@ -438,7 +555,7 @@ img.mealtype5 {
 
 /* bath.php用 */
 div#bathmain {
-	background-color: #8e5100;
+	background-color: #855100;
 	position: relative;
 }
 div#bathmain p {
@@ -530,7 +647,7 @@ div#guidepart1 {
 }
 /* reservation.php用 */
 div#reservemain {
-	background-color: #004000;
+	background-color: #002100;
 	position: relative;
 }
 div#reservemain p {

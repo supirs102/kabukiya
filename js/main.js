@@ -33,30 +33,390 @@ $(function(){
 		});
 	});
 
-	// ホバー時の挙動
-	$('.goyoyakulink').mouseenter(function() {
-		$('#headernav').find('a').stop().animate({color: '#f00'},500); //色
+	// ホバー時の挙動(index.php)
+	$('#linkul01').find('.goyoyakulink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#002100'},500); //色
 		$('header').find('.bgheader').stop().fadeOut(); //右側
-		$('header').find('.bg02').stop().fadeIn(); //右側
+		$('header').find('.bg01').stop().fadeIn(); //右側
+		$('header').find('.titleheader').stop().fadeOut(); //右側
+		$('header').find('.title01').stop().fadeIn(); //右側
 		$('.bg11').stop().fadeIn(); //左側
 	}).mouseleave(function() {
-		$('#headernav').find('a').stop().animate({color: 'black'},500);
+		$('#headernav').find('a').stop().animate({color: '#a53926'},500);
 		$('header').find('.bgheader').stop().fadeOut();
-		$('header').find('.bg01').stop().fadeIn();
+		$('header').find('.bg06').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title06').stop().fadeIn();
 		$('.bg11').stop().fadeOut();
-		// $('header').find('#bgheader').attr('src', 'images/kin.jpg').fadeIn()
-		// $('header').css({backgroundImage: ''},500);
 	});
-	$('.goannailink').mouseenter(function() {
-		$('#headernav').find('a').stop().animate({color: '#00f'},500);
+	$('#linkul01').find('.goannailink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#3a1212'},500);
 		$('header').find('.bgheader').stop().fadeOut();
-		$('header').find('.bg03').stop().fadeIn();
+		$('header').find('.bg02').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title02').stop().fadeIn();
 		$('.bg12').stop().fadeIn();
 	}).mouseleave(function() {
-		$('#headernav').find('a').stop().animate({color: 'black'},500);
+		$('#headernav').find('a').stop().animate({color: '#a53926'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg06').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title06').stop().fadeIn();
+		$('.bg12').stop().fadeOut();
+	});
+	$('#linkul01').find('.ofurolink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#855100'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg03').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title03').stop().fadeIn();
+		$('.bg13').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#a53926'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg06').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title06').stop().fadeIn();
+		$('.bg13').stop().fadeOut();
+	});
+	$('#linkul01').find('.oshokujilink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#0b0e0f'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg04').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title04').stop().fadeIn();
+		$('.bg14').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#a53926'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg06').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title06').stop().fadeIn();
+		$('.bg14').stop().fadeOut();
+	});
+	$('#linkul01').find('.oheyalink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#04002b'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg05').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title05').stop().fadeIn();
+		$('.bg15').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#a53926'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg06').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title06').stop().fadeIn();
+		$('.bg15').stop().fadeOut();
+	});
+
+	// ホバー時の挙動(room.php)
+	$('#linkul02').find('.goyoyakulink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#002100'},500); //色
+		$('header').find('.bgheader').stop().fadeOut(); //右側
+		$('header').find('.bg01').stop().fadeIn(); //右側
+		$('header').find('.titleheader').stop().fadeOut(); //右側
+		$('header').find('.title01').stop().fadeIn(); //右側
+		$('.bg11').stop().fadeIn(); //左側
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#04002b'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg05').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title05').stop().fadeIn();
+		$('.bg11').stop().fadeOut();
+	});
+	$('#linkul02').find('.goannailink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#3a1212'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg02').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title02').stop().fadeIn();
+		$('.bg12').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#04002b'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg05').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title05').stop().fadeIn();
+		$('.bg12').stop().fadeOut();
+	});
+	$('#linkul02').find('.ofurolink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#855100'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg03').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title03').stop().fadeIn();
+		$('.bg13').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#04002b'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg05').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title05').stop().fadeIn();
+		$('.bg13').stop().fadeOut();
+	});
+	$('#linkul02').find('.oshokujilink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#0b0e0f'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg04').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title04').stop().fadeIn();
+		$('.bg14').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#04002b'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg05').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title05').stop().fadeIn();
+		$('.bg14').stop().fadeOut();
+	});
+	$('#linkul02').find('.kabukiyalink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#a53926'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg06').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title06').stop().fadeIn();
+		$('.bg15').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#04002b'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg05').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title05').stop().fadeIn();
+		$('.bg15').stop().fadeOut();
+	});
+
+	// ホバー時の挙動(meal.php)
+	$('#linkul03').find('.goyoyakulink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#002100'},500); //色
+		$('header').find('.bgheader').stop().fadeOut(); //右側
+		$('header').find('.bg01').stop().fadeIn(); //右側
+		$('header').find('.titleheader').stop().fadeOut(); //右側
+		$('header').find('.title01').stop().fadeIn(); //右側
+		$('.bg11').stop().fadeIn(); //左側
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#0b0e0f'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg04').stop().fadeIn();
+		$('header').find('.titleheader').stop().fadeOut();
+		$('header').find('.title04').stop().fadeIn();
+		$('.bg11').stop().fadeOut();
+	});
+	$('#linkul03').find('.goannailink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#3a1212'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg02').stop().fadeIn();
+		$('.bg12').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#0b0e0f'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg04').stop().fadeIn();
+		$('.bg12').stop().fadeOut();
+	});
+	$('#linkul03').find('.ofurolink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#855100'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg03').stop().fadeIn();
+		$('.bg13').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#0b0e0f'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg04').stop().fadeIn();
+		$('.bg13').stop().fadeOut();
+	});
+	$('#linkul03').find('.oheyalink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#04002b'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg05').stop().fadeIn();
+		$('.bg15').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#0b0e0f'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg04').stop().fadeIn();
+		$('.bg15').stop().fadeOut();
+	});
+	$('#linkul03').find('.kabukiyalink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#a53926'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg06').stop().fadeIn();
+		$('.bg15').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#0b0e0f'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg04').stop().fadeIn();
+		$('.bg15').stop().fadeOut();
+	});
+
+	// ホバー時の挙動(bath.php)
+	$('#linkul04').find('.goyoyakulink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#002100'},500); //色
+		$('header').find('.bgheader').stop().fadeOut(); //右側
+		$('header').find('.bg01').stop().fadeIn(); //右側
+		$('.bg11').stop().fadeIn(); //左側
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#855100'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg03').stop().fadeIn();
+		$('.bg11').stop().fadeOut();
+	});
+	$('#linkul04').find('.goannailink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#3a1212'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg02').stop().fadeIn();
+		$('.bg12').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#855100'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg03').stop().fadeIn();
+		$('.bg12').stop().fadeOut();
+	});
+	$('#linkul04').find('.oshokujilink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#0b0e0f'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg04').stop().fadeIn();
+		$('.bg14').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#855100'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg03').stop().fadeIn();
+		$('.bg14').stop().fadeOut();
+	});
+	$('#linkul04').find('.oheyalink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#04002b'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg05').stop().fadeIn();
+		$('.bg15').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#855100'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg03').stop().fadeIn();
+		$('.bg15').stop().fadeOut();
+	});
+	$('#linkul04').find('.kabukiyalink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#a53926'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg06').stop().fadeIn();
+		$('.bg15').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#855100'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg03').stop().fadeIn();
+		$('.bg15').stop().fadeOut();
+	});
+
+	// ホバー時の挙動(guide.php)
+	$('#linkul05').find('.goyoyakulink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#002100'},500); //色
+		$('header').find('.bgheader').stop().fadeOut(); //右側
+		$('header').find('.bg01').stop().fadeIn(); //右側
+		$('.bg11').stop().fadeIn(); //左側
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#3a1212'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg02').stop().fadeIn();
+		$('.bg11').stop().fadeOut();
+	});
+	$('#linkul05').find('.ofurolink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#855100'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg03').stop().fadeIn();
+		$('.bg13').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#3a1212'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg02').stop().fadeIn();
+		$('.bg13').stop().fadeOut();
+	});
+	$('#linkul05').find('.oshokujilink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#0b0e0f'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg04').stop().fadeIn();
+		$('.bg14').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#3a1212'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg02').stop().fadeIn();
+		$('.bg14').stop().fadeOut();
+	});
+	$('#linkul05').find('.oheyalink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#04002b'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg05').stop().fadeIn();
+		$('.bg15').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#3a1212'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg02').stop().fadeIn();
+		$('.bg15').stop().fadeOut();
+	});
+	$('#linkul05').find('.kabukiyalink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#a53926'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg06').stop().fadeIn();
+		$('.bg15').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#3a1212'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg02').stop().fadeIn();
+		$('.bg15').stop().fadeOut();
+	});
+
+	// ホバー時の挙動(reservation.php)
+	$('#linkul06').find('.goannailink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#3a1212'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg02').stop().fadeIn();
+		$('.bg12').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#002100'},500);
 		$('header').find('.bgheader').stop().fadeOut();
 		$('header').find('.bg01').stop().fadeIn();
 		$('.bg12').stop().fadeOut();
+	});
+	$('#linkul06').find('.ofurolink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#855100'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg03').stop().fadeIn();
+		$('.bg13').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#002100'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg01').stop().fadeIn();
+		$('.bg13').stop().fadeOut();
+	});
+	$('#linkul06').find('.oshokujilink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#0b0e0f'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg04').stop().fadeIn();
+		$('.bg14').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#002100'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg01').stop().fadeIn();
+		$('.bg14').stop().fadeOut();
+	});
+	$('#linkul06').find('.oheyalink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#04002b'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg05').stop().fadeIn();
+		$('.bg15').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#002100'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg01').stop().fadeIn();
+		$('.bg15').stop().fadeOut();
+	});
+	$('#linkul06').find('.kabukiyalink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#a53926'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg06').stop().fadeIn();
+		$('.bg15').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: '#002100'},500);
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg01').stop().fadeIn();
+		$('.bg15').stop().fadeOut();
 	});
 
 });
