@@ -22,14 +22,14 @@ $(function(){
 	var h = document.body.clientHeight;
 	$('#filter').css({
 		width : w,
-		height : h
+		height : h + 24
 	});
 	$(window).resize(function(){
 		var w = document.body.clientWidth;
 		var h = document.body.clientHeight;
 		$('#filter').css({
 			width : w,
-			height : h
+			height : h + 24
 		});
 	});
 
