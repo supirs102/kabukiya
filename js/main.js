@@ -1,4 +1,5 @@
 $(function(){
+	// おへやのページスムーススクロール
 	$("a[href^='#']").click(function(){
 		if(!$(this).data("box")){
 			$("body,html").stop().animate({
@@ -13,5 +14,20 @@ $(function(){
 			}, 1000);
 		}
 		return false;
+	});
+	// 全体のフィルター
+	var w = document.body.clientWidth;
+	var h = document.body.clientHeight;
+	$('#filter').css({
+		width : w,
+		height : h
+	});
+	$(window).resize(function(){
+		var w = document.body.clientWidth;
+		var h = document.body.clientHeight;
+		$('#filter').css({
+			width : w,
+			height : h
+		});
 	});
 });
