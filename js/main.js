@@ -34,12 +34,12 @@ $(function(){
 	});
 
 	// ホバー時の挙動
-	$('.goyoyakulink').hover(function() {
-		$('#headernav').find('a').stop().animate({color: '#f00'},500);
-		$('header').css({backgroundImage: 'url(images/nami.gif)'},500);
-	}, function() {
-		$('#headernav').find('a').stop().animate({color: 'black'},500);
-		$('header').css({backgroundImage: ''},500);
-	});
+	// $('.goyoyakulink').hover(function() {
+	// 	$('#headernav').find('a').stop().animate({color: '#f00'},500);
+	// 	$('header').css({backgroundImage: 'url(images/nami.gif)'},500);
+	// }, function() {
+	// 	$('#headernav').find('a').stop().animate({color: 'black'},500);
+	// 	$('header').css({backgroundImage: ''},500);
+	// });
 
 });
