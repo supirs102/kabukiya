@@ -177,6 +177,7 @@ div.bgmain {
 	overflow: hidden;
 	position: absolute;
 	top: 24px;
+	pointer-events: none;
 }
 div.bgmain img {
 	width: 100%;
