@@ -169,6 +169,23 @@ div#look img {
 	object-position: top center;
 }
 
+/* bgmain用 */
+div.bgmain {
+	width: 50%;
+	height: 94vh;
+	min-height: 650px;
+	overflow: hidden;
+	position: absolute;
+	top: 24px;
+}
+div.bgmain img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: top center;
+	display: none;
+}
+
 /* footer用 */
 footer{
 	position: relative;

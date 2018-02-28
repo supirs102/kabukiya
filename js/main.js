@@ -35,24 +35,28 @@ $(function(){
 
 	// ホバー時の挙動
 	$('.goyoyakulink').mouseenter(function() {
-		$('#headernav').find('a').stop().animate({color: '#f00'},500);
-		$('header').find('.bgheader').stop().fadeOut()
-		$('header').find('.bg02').stop().fadeIn();
+		$('#headernav').find('a').stop().animate({color: '#f00'},500); //色
+		$('header').find('.bgheader').stop().fadeOut(); //右側
+		$('header').find('.bg02').stop().fadeIn(); //右側
+		$('.bg11').stop().fadeIn(); //左側
 	}).mouseleave(function() {
 		$('#headernav').find('a').stop().animate({color: 'black'},500);
-		$('header').find('.bgheader').stop().fadeOut()
+		$('header').find('.bgheader').stop().fadeOut();
 		$('header').find('.bg01').stop().fadeIn();
+		$('.bg11').stop().fadeOut();
 		// $('header').find('#bgheader').attr('src', 'images/kin.jpg').fadeIn()
 		// $('header').css({backgroundImage: ''},500);
 	});
 	$('.goannailink').mouseenter(function() {
 		$('#headernav').find('a').stop().animate({color: '#00f'},500);
-		$('header').find('.bgheader').stop().fadeOut()
+		$('header').find('.bgheader').stop().fadeOut();
 		$('header').find('.bg03').stop().fadeIn();
+		$('.bg12').stop().fadeIn();
 	}).mouseleave(function() {
 		$('#headernav').find('a').stop().animate({color: 'black'},500);
-		$('header').find('.bgheader').stop().fadeOut()
+		$('header').find('.bgheader').stop().fadeOut();
 		$('header').find('.bg01').stop().fadeIn();
+		$('.bg12').stop().fadeOut();
 	});
 
 });
