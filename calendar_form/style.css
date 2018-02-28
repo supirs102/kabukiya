@@ -10,18 +10,18 @@
 }
 /*本日の背景色　※ただし設定ファイルでの設定が優先されます*/
 .today{
-	background:#FF9;	
+	background:#FF9;
 }
 /*休業日設定した日の背景色　※ただし設定ファイルでの設定が優先されます*/
 .holiday{
-	background:#FDD;	
+	background:#FDD;
 }
 /*定休日設定した日の背景色　※ただし設定ファイルでの設定が優先されます*/
 .closed{
-	background:#FDD;	
+	background:#FDD;
 }
 .hidden{
-	display:none;	
+	display:none;
 }
 /*休業日テキスト部の左側の四角*/
 .holidayCube{
@@ -42,13 +42,13 @@
 	top:2px;
 }
 /*---------------------------------
-			index.php 
+			index.php
 ---------------------------------*/
 
 /* Calender style */
 
 #calenderTable{
-	width:100%;	
+	width:100%;
 	font-family:"メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	border-collapse:collapse;
 }
@@ -129,14 +129,14 @@ table.navNextPrev {
 	width:100%;
 }
 table.navNextPrev .dspPrev{
-	text-align:left;	
+	text-align:left;
 	padding:10px;
 }
 table.navNextPrev .dspNext{
 	text-align:right;
 	padding:10px;
 }
-h2#headerYm{
+h3#headerYm{
 	background:#666;
 	color:#fff;
 	text-align:center;
@@ -150,13 +150,14 @@ h2#headerYm{
 
 /* Reserv Btn styl*/
 .reservForm{
-	display:inline;	
+	display:inline;
 }
 .reservForm input{
 	font-size:12px;
 	cursor:pointer;
 	font-family:"ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	padding:1px 2px;
+	color: red;
 }
 /* /Reserv Btn styl*/
 
@@ -170,7 +171,7 @@ h2#headerYm{
 	font-size:90%;
 	font-family:"メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
-#formWrap h2{
+#formWrap h3{
 	font-weight:normal;
 	font-size:14px;
 	color:#111;
@@ -203,5 +204,5 @@ table.formTable th {
 	text-align:left;
 }
 /*---------------------------------
-		/index.php style 
+		/index.php style
 ---------------------------------*/

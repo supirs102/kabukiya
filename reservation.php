@@ -66,7 +66,7 @@
 
 		<div id="formWrap">
 		<p><input type="button" value="前画面に戻る" onClick="history.back()" class="submit-button"></p>
-			<h2>予約フォーム</h2>
+			<h3>予約フォーム</h3>
 			<p>下記フォームに必要事項を入力後、確認ボタンを押してください。</p>
 		<form action="calendar_form/mail/mail.php" method="post">
 		<table class="formTable">
