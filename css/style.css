@@ -71,7 +71,8 @@ header {
 	width: 50%;
 	height: 94vh;
 	min-height: 650px;
-	background-color: #333;
+	background-image: url(../images/kin.jpg);
+	background-repeat: repeat;
 	float: right;
 }
 header h1 {
