@@ -34,12 +34,25 @@ $(function(){
 	});
 
 	// ホバー時の挙動
-	// $('.goyoyakulink').hover(function() {
-	// 	$('#headernav').find('a').stop().animate({color: '#f00'},500);
-	// 	$('header').css({backgroundImage: 'url(images/nami.gif)'},500);
-	// }, function() {
-	// 	$('#headernav').find('a').stop().animate({color: 'black'},500);
-	// 	$('header').css({backgroundImage: ''},500);
-	// });
+	$('.goyoyakulink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#f00'},500);
+		$('header').find('.bgheader').stop().fadeOut()
+		$('header').find('.bg02').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: 'black'},500);
+		$('header').find('.bgheader').stop().fadeOut()
+		$('header').find('.bg01').stop().fadeIn();
+		// $('header').find('#bgheader').attr('src', 'images/kin.jpg').fadeIn()
+		// $('header').css({backgroundImage: ''},500);
+	});
+	$('.goannailink').mouseenter(function() {
+		$('#headernav').find('a').stop().animate({color: '#00f'},500);
+		$('header').find('.bgheader').stop().fadeOut()
+		$('header').find('.bg03').stop().fadeIn();
+	}).mouseleave(function() {
+		$('#headernav').find('a').stop().animate({color: 'black'},500);
+		$('header').find('.bgheader').stop().fadeOut()
+		$('header').find('.bg01').stop().fadeIn();
+	});
 
 });

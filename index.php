@@ -15,7 +15,9 @@
 <body>
 <div id="wrapper">
 <header>
-	<img id="bgheader" src="images/kin.jpg">
+	<img class="bgheader bg01" src="images/kin.jpg">
+	<img class="bgheader bg02" src="images/aonami.jpg">
+	<img class="bgheader bg03" src="images/nami.gif">
 	<h1></h1>
 	<div id="headernav">
 		<nav>

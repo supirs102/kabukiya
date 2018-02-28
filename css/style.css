@@ -132,7 +132,7 @@ header div#headernav nav ul li a span.kana {
 	font-size: 10px;
 	letter-spacing: 5px;
 }
-header img#bgheader {
+header img.bgheader {
 	width: 100%;
 	height: 94vh;
 	min-height: 650px;
@@ -140,6 +140,15 @@ header img#bgheader {
 	top: 0;
 	left: 0;
 	z-index: 1;
+}
+header img.bg01 {
+	display: block;
+}
+header img.bg02 {
+	display: none;
+}
+header img.bg03 {
+	display: none;
 }
 
 /* look用 */
