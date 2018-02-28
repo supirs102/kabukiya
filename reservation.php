@@ -8,12 +8,15 @@
 <title>ごよやく&emsp;|&emsp;歌舞伎屋</title>
 <link rel="stylesheet" href="css/style.css" type="text/css">
 <link href="calendar_form/style.css" rel="stylesheet">
-<script src="js/main.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
+<script src="js/main.js"></script>
 <link rel="icon" type="image/vnd.microsoft.icon" href="#">
 </head>
 <body>
 <div id="wrapper">
 <header>
+	<img id="bgheader" src="images/kin.jpg">
 	<h1></h1>
 	<div id="headernav">
 		<nav>
