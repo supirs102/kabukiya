@@ -1,4 +1,5 @@
 $(function(){
+
 	// おへやのページスムーススクロール
 	$("a[href^='#']").click(function(){
 		if(!$(this).data("box")){
@@ -15,6 +16,7 @@ $(function(){
 		}
 		return false;
 	});
+
 	// 全体のフィルター
 	var w = document.body.clientWidth;
 	var h = document.body.clientHeight;
@@ -30,4 +32,12 @@ $(function(){
 			height : h
 		});
 	});
+
+	// ホバー時の挙動
+	$('.goyoyakulink').hover(function() {
+		$(this).stop().animate({backgroundColor: '#ffaa00'},200);
+	}, function() {
+		$(this).stop().animate({backgroundColor: '#ffaa00'},200);
+	});
+
 });

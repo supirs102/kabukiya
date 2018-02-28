@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 <title>歌舞伎屋</title>
 <link rel="stylesheet" href="css/style.css" type="text/css">
+<link href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/main.js"></script>
 <link rel="icon" type="image/vnd.microsoft.icon" href="#">
