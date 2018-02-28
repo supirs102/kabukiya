@@ -15,6 +15,7 @@
 <body>
 <div id="wrapper">
 <header>
+	<img id="bgheader" src="images/kin.jpg">
 	<h1></h1>
 	<div id="headernav">
 		<nav>
