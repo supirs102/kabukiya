@@ -2,11 +2,11 @@
 
 /*土曜の文字色*/
 .youbi_6{
-	color:#36F!important;
+	color:#15436d!important;
 }
 /*祝日と日曜の文字色*/
 .youbi_0,.shukujitu{
-	color:red!important;
+	color:#a53926!important;
 }
 /*本日の背景色　※ただし設定ファイルでの設定が優先されます*/
 .today{
@@ -111,12 +111,9 @@ ul#calenderList{
 	color: #000;
 }
 #calenderList li{
-	border-bottom:1px solid #999;
+	border-bottom:1px solid #d8d8d8;
 	padding: 11px;
 	margin: 13px;
-}
-#calenderList li.first-child{
-	border-top:1px solid #999;
 }
 #calenderList .scheduleComment{
 	text-align:left;
@@ -130,7 +127,7 @@ ul#calenderList{
 	line-height: 15px;
 	vertical-align: middle;
 	padding:0px 0 3px;
-	border-right:1px dotted #aaa;
+	border-right:1px dotted #d8d8d8;
 	display: inline-block;
 	width: 25%;
 	min-width: 96px;
@@ -172,7 +169,7 @@ h3#headerYm{
 	text-align:center;
 	padding:5px ;
 	font-size:110%;
-	letter-spacing: 2px;
+	letter-spacing: 5px;
 }
 
 /* /if ListStyle */
@@ -187,7 +184,7 @@ h3#headerYm{
 	cursor:pointer;
 	font-family:"ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	padding:1px 2px;
-	color: red;
+	color: #a53926;
 }
 /* /Reserv Btn styl*/
 
