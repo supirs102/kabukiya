@@ -35,7 +35,7 @@
 	<div id="headernav">
 		<nav>
 			<ul>
-				<li><a class="goyoyakulink" href="reservation.php"><span class="kana">GOYOYAKU</span><br><span>ごよやく</span></a></li>
+				<li><a class="goyoyakulink nolink" href="reservation.php"><span class="kana">GOYOYAKU</span><br><span>ごよやく</span></a></li>
 				<li><a class="goannailink" href="guide.php"><span class="kana">GOANNAI</span><br><span>ごあんない</span></a></li>
 				<li><a class="ofurolink" href="bath.php"><span class="kana">OFURO</span><br><span>おふろ</span></a></li>
 				<li><a class="oshokujilink" href="meal.php"><span class="kana">OSHOKUJI</span><br><span>おしょくじ</span></a></li>

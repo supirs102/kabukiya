@@ -37,7 +37,7 @@
 				<li><a class="ofurolink" href="bath.php"><span class="kana">OFURO</span><br><span>おふろ</span></a></li>
 				<li><a class="oshokujilink" href="meal.php"><span class="kana">OSHOKUJI</span><br><span>おしょくじ</span></a></li>
 				<li><a class="oheyalink" href="room.php"><span class="kana">OHEYA</span><br><span>おへや</span></a></li>
-				<li><a class="kabukiyalink" href="index.php"><span class="kana">KABUKIYA</span><br><span>かぶきや</span></a></li>
+				<li><a class="kabukiyalink nolink" href="index.php"><span class="kana">KABUKIYA</span><br><span>かぶきや</span></a></li>
 			</ul>
 		</nav>
 	</div><!-- /heaernav -->

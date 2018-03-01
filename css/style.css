@@ -63,6 +63,9 @@ a {
 	text-decoration: none;
 	color: #a53926;
 }
+a.nolink {
+	cursor: default;
+}
 div.clear-element {
 	clear: both;
 }
@@ -152,7 +155,6 @@ header img.titleheader {
 	left: 0;
 	z-index: 1;
 }
-
 #linkul01 .bg06,
 #linkul01 .title06 {
 	display: block;

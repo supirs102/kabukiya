@@ -38,6 +38,11 @@ $(function(){
 		$(".main").mCustomScrollbar();
 	});
 
+	// そのページと同じページへのリンクの無効化
+	$('.nolink').click(function(){
+		return false;
+	});
+
 	// ホバー時の右側のずれ解消
 	var gap = $('.main').outerHeight();
 	$('.bgmain').css({
