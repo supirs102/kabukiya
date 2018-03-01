@@ -177,14 +177,14 @@ $(function(){
 		$('header').find('.bg06').stop().fadeIn();
 		$('header').find('.titleheader').stop().hide();
 		$('header').find('.title06').stop().show();
-		$('.bg15').stop().fadeIn();
+		$('.bg16').stop().fadeIn();
 	}).mouseleave(function() {
 		$('#headernav').find('a').stop().animate({color: '#04002b'},500);
 		$('header').find('.bgheader').stop().fadeOut();
 		$('header').find('.bg05').stop().fadeIn();
 		$('header').find('.titleheader').stop().hide();
 		$('header').find('.title05').stop().show();
-		$('.bg15').stop().fadeOut();
+		$('.bg16').stop().fadeOut();
 	});
 
 	// ホバー時の挙動(meal.php)
@@ -254,14 +254,14 @@ $(function(){
 		$('header').find('.bg06').stop().fadeIn();
 		$('header').find('.titleheader').stop().hide();
 		$('header').find('.title06').stop().show();
-		$('.bg15').stop().fadeIn();
+		$('.bg16').stop().fadeIn();
 	}).mouseleave(function() {
 		$('#headernav').find('a').stop().animate({color: '#0b0e0f'},500);
 		$('header').find('.bgheader').stop().fadeOut();
 		$('header').find('.bg04').stop().fadeIn();
 		$('header').find('.titleheader').stop().hide();
 		$('header').find('.title04').stop().show();
-		$('.bg15').stop().fadeOut();
+		$('.bg16').stop().fadeOut();
 	});
 
 	// ホバー時の挙動(bath.php)
@@ -331,14 +331,14 @@ $(function(){
 		$('header').find('.bg06').stop().fadeIn();
 		$('header').find('.titleheader').stop().hide();
 		$('header').find('.title06').stop().show();
-		$('.bg15').stop().fadeIn();
+		$('.bg16').stop().fadeIn();
 	}).mouseleave(function() {
 		$('#headernav').find('a').stop().animate({color: '#855100'},500);
 		$('header').find('.bgheader').stop().fadeOut();
 		$('header').find('.bg03').stop().fadeIn();
 		$('header').find('.titleheader').stop().hide();
 		$('header').find('.title03').stop().show();
-		$('.bg15').stop().fadeOut();
+		$('.bg16').stop().fadeOut();
 	});
 
 	// ホバー時の挙動(guide.php)
@@ -408,14 +408,14 @@ $(function(){
 		$('header').find('.bg06').stop().fadeIn();
 		$('header').find('.titleheader').stop().hide();
 		$('header').find('.title06').stop().show();
-		$('.bg15').stop().fadeIn();
+		$('.bg16').stop().fadeIn();
 	}).mouseleave(function() {
 		$('#headernav').find('a').stop().animate({color: '#3a1212'},500);
 		$('header').find('.bgheader').stop().fadeOut();
 		$('header').find('.bg02').stop().fadeIn();
 		$('header').find('.titleheader').stop().hide();
 		$('header').find('.title02').stop().show();
-		$('.bg15').stop().fadeOut();
+		$('.bg16').stop().fadeOut();
 	});
 
 	// ホバー時の挙動(reservation.php)
@@ -485,14 +485,14 @@ $(function(){
 		$('header').find('.bg06').stop().fadeIn();
 		$('header').find('.titleheader').stop().hide();
 		$('header').find('.title06').stop().show();
-		$('.bg15').stop().fadeIn();
+		$('.bg16').stop().fadeIn();
 	}).mouseleave(function() {
 		$('#headernav').find('a').stop().animate({color: '#002100'},500);
 		$('header').find('.bgheader').stop().fadeOut();
 		$('header').find('.bg01').stop().fadeIn();
 		$('header').find('.titleheader').stop().hide();
 		$('header').find('.title01').stop().show();
-		$('.bg15').stop().fadeOut();
+		$('.bg16').stop().fadeOut();
 	});
 
 });

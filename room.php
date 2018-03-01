@@ -137,6 +137,14 @@
 		<img class="roomtype2" src="images/heya2.png">
 	</div><!-- /roomkamakura -->
 </div><!-- /roommain -->
+<div class="bgmain">
+	<img class="bg11" src="images/goannai_top.png">
+	<img class="bg12" src="images/goannai_top.png">
+	<img class="bg13" src="images/ofuro_top.png">
+	<img class="bg14" src="images/osyokuji.png">
+	<img class="bg15" src="images/goemon.png">
+	<img class="bg16" src="images/top_face.png">
+</div><!-- /bgmain -->
 <footer>
 	<div id="footerdata">
 		<span class="kana">かぶきや</span><br>
