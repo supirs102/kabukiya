@@ -47,7 +47,7 @@
 </header><!-- /header -->
 <div class="main" id="reservemain">
 	<h2><span class="kana">GOYOYAKU</span><br><span>ごよやく</span></h2>
-	<img id="reservetitle1" src="images/goannai_top.png">
+	<img id="reservetitle1" src="images/goyoyaku_top.png">
 	<div id="reserveabout">
 		<p>一羽のホオジロが、<br>
 		水波の部屋のテラスに<br>
@@ -127,7 +127,7 @@
 	</div><!-- /reservesystem -->
 </div><!-- /reservationmain -->
 <div class="bgmain">
-	<img class="bg11" src="images/goannai_top.png">
+	<img class="bg11" src="images/goyoyaku_top.png">
 	<img class="bg12" src="images/goannai_top.png">
 	<img class="bg13" src="images/ofuro_top.png">
 	<img class="bg14" src="images/osyokuji.png">
