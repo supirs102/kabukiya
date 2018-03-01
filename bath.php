@@ -78,7 +78,7 @@
 		場所であることに気づく</p>
 		<img src="images/ofuro3.png" class="bathtype2">
 	</div><!-- /bathpart2 -->
-	<img src="images/ofuro3.png" class="bathtype3">
+	<img src="images/ofuro5.png" class="bathtype3">
 	<img src="images/ofuro6.png" class="bathtype4">
 </div><!-- /bathmain -->
 <div class="bgmain">
