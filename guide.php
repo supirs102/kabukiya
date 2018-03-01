@@ -21,7 +21,14 @@
 	<img class="bgheader bg04" src="images/oshokujitexture.png">
 	<img class="bgheader bg05" src="images/oheyatexture.png">
 	<img class="bgheader bg06" src="images/kabukiyatexture.png">
-	<h1></h1>
+	<h1>
+		<img class="titleheader title01" src="images/goyoyaku_logo.png">
+		<img class="titleheader title02" src="images/goannai_logo.png">
+		<img class="titleheader title03" src="images/ofuro_logo.png">
+		<img class="titleheader title04" src="images/osyokuji_logo.png">
+		<img class="titleheader title05" src="images/oheya_logo.png">
+		<img class="titleheader title06" src="images/top_logo.png">
+	</h1>
 	<div id="headernav">
 		<nav>
 			<ul>
@@ -62,6 +69,14 @@
 		場所であることに気づく</p>
 	</div><!-- /guidepart1 -->
 </div><!-- /guidemain -->
+<div class="bgmain">
+	<img class="bg11" src="images/goannai_top.png">
+	<img class="bg12" src="images/goannai_top.png">
+	<img class="bg13" src="images/ofuro_top.png">
+	<img class="bg14" src="images/osyokuji.png">
+	<img class="bg15" src="images/goemon.png">
+	<img class="bg16" src="images/top_face.png">
+</div><!-- /bgmain -->
 <footer>
 	<div id="footerdata">
 		<span class="kana">かぶきや</span><br>

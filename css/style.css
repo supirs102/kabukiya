@@ -53,7 +53,7 @@ body {
 	width: 100%;
 	min-width: 1100px;
 	height: 100%;
-	font-family: YuMincho,'YuMincho','Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 #wrapper {
 	width: 96%;
