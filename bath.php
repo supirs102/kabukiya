@@ -5,7 +5,7 @@
 <meta http-equiv="content-language" content="ja">
 <meta name="description" content="歌舞伎屋は、エキゾチックな文化に惹かれる方のためのレトロモダンな旅館です。">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-<title>おふろ&emsp;|&emsp;歌舞伎屋</title>
+<title>おふろ&nbsp;|&nbsp;歌舞伎屋</title>
 <link rel="stylesheet" href="css/style.css" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>

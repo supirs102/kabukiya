@@ -5,7 +5,7 @@
 <meta http-equiv="content-language" content="ja">
 <meta name="description" content="歌舞伎屋は、エキゾチックな文化に惹かれる方のためのレトロモダンな旅館です。">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-<title>おへや&emsp;|&emsp;歌舞伎屋</title>
+<title>おへや&nbsp;|&nbsp;歌舞伎屋</title>
 <link rel="stylesheet" href="css/style.css" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
@@ -56,34 +56,30 @@
 		</nav>
 	</div><!-- /roomnav -->
 	<div id="roomabout">
-		<p>一羽のホオジロが、<br>
-		水波の部屋のテラスに<br>
-		降り立つのが見える<br>
-		池の浅瀬ではセグロセキレイが<br>
-		水浴びをしていた</p>
-		<p>星のや軽井沢に足を<br>
-		踏み入れるとすぐに、豊かな<br>
-		生態系に恵まれている<br>
-		場所であることに気づく</p>
+			<p>家紋のおこり</br>
+			「源平藤橘」と呼ばれる</br>
+			源氏、平氏、藤原氏といった</br>
+			強力な氏族が最も名を馳せていた時代</p>
+		<p>地方に移り住んだ氏族の一部が</br>
+		他の同じ氏族の人間と区別を図るため</br>
+		土地の名前などを自分の家名とし、</br>
+		それが後の名字となった</p>
 	</div><!-- /roomabout -->
 	<div id="roomgoemon">
 		<img src="images/goemon.png" class="roomtitle">
 		<div class="roomcenter">
 			<img class="roomkamon" src="images/ishikawa_kamon.png">
 			<div class="roomdetail">
-				<p>一羽のホオジロが、<br>
-				水波の部屋のテラスに<br>
-				降り立つのが見える<br>
-				池の浅瀬ではセグロセキレイが<br>
-				水浴びをしていた</p>
-				<p>星のや軽井沢に足を<br>
-				踏み入れるとすぐに、豊かな<br>
-				生態系に恵まれている<br>
-				場所であることに気づく</p>
-				<p>星のや軽井沢に足を<br>
-				踏み入れるとすぐに、豊かな<br>
-				生態系に恵まれている<br>
-				場所であることに気づく</p>
+				<p>安土桃山時代に出没した盗賊<br>
+				都市部を中心に荒らしまわり、<br>
+				時の為政者である<br>
+				豊臣秀吉の手勢に捕えられ、<br>
+				京都三条河原で処刑された</p>
+				<p>墓は京都の大雲院にある<br>
+				これは五右衛門が処刑の前に<br>
+				市中を引き回され、<br>
+				大雲院の前に至った際、<br>
+				住職に引導を渡された縁による</p>
 			</div><!-- /roomdetail -->
 		</div><!-- /roomcenter -->
 		<img class="roomtype1" src="images/room.png"><br>
@@ -95,19 +91,16 @@
 		<div class="roomcenter">
 			<img class="roomkamon" src="images/benkei_kamon.png">
 			<div class="roomdetail">
-				<p>一羽のホオジロが、<br>
-				水波の部屋のテラスに<br>
-				降り立つのが見える<br>
-				池の浅瀬ではセグロセキレイが<br>
-				水浴びをしていた</p>
-				<p>星のや軽井沢に足を<br>
-				踏み入れるとすぐに、豊かな<br>
-				生態系に恵まれている<br>
-				場所であることに気づく</p>
-				<p>星のや軽井沢に足を<br>
-				踏み入れるとすぐに、豊かな<br>
-				生態系に恵まれている<br>
-				場所であることに気づく</p>
+			<p>武蔵坊弁慶は、乱暴ばかり<br>
+				働いていたので、<br>
+				寺から追い出された<br>
+			怪力無双を試すべく<br>
+			弁慶は千本の太刀を奪おうと<br>
+			決意し京に戻る</p>
+			<p>道を通る武者を襲っては太刀を奪うことを繰り返していた<br>
+			弁慶を源義経は返り討ちにした<br>
+			降参した弁慶は、それ以来<br>
+			源義経の家来となった</p>
 			</div><!-- /roomdetail -->
 		</div><!-- /roomcenter -->
 		<img class="roomtype1" src="images/room5.png"><br>
@@ -119,19 +112,15 @@
 		<div class="roomcenter">
 			<img class="roomkamon" src="images/gengorou.png">
 			<div class="roomdetail">
-				<p>一羽のホオジロが、<br>
-				水波の部屋のテラスに<br>
-				降り立つのが見える<br>
-				池の浅瀬ではセグロセキレイが<br>
-				水浴びをしていた</p>
-				<p>星のや軽井沢に足を<br>
-				踏み入れるとすぐに、豊かな<br>
-				生態系に恵まれている<br>
-				場所であることに気づく</p>
-				<p>星のや軽井沢に足を<br>
-				踏み入れるとすぐに、豊かな<br>
-				生態系に恵まれている<br>
-				場所であることに気づく</p>
+			<p>出羽国金沢の柵の<br>
+				攻略に活躍し<br>
+			大いに武名をあげた</p>
+			<p>このとき景政は，<br>
+			鳥海弥三郎のために<br>
+			左目を射抜かれたが，<br>
+			ひるむことなく即座に<br>
+			答えの矢を射返して<br>
+			これを倒したという</p>
 			</div><!-- /roomdetail -->
 		</div><!-- /roomcenter -->
 		<img class="roomtype1" src="images/room9.png"><br>
