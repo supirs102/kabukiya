@@ -90,6 +90,7 @@
 }
 .countNum{
 	font-size:110%;
+	display: none;
 }
 p.holidayText{
 	font-size:12px!important;
