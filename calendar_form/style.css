@@ -127,6 +127,8 @@ ul#calenderList{
 	text-align:center;
 	color:#555;
 	font-size:11px;
+	line-height: 15px;
+	vertical-align: middle;
 	padding:0px 0 3px;
 	border-right:1px dotted #aaa;
 	display: inline-block;
