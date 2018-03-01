@@ -59,7 +59,7 @@
 	<div id="bathpart1">
 		<img src="images/ofuro4.png" class="bathtype1">
 		<p>伝統と格式が息づく<br>
-		ゆっくりとした贅沢な<br>
+		ゆっくりとした<br>
 		時間の流れの中、<br>
 		優雅で贅沢な時間を過ごす</p>
 	</div><!-- /bathpart1 -->
