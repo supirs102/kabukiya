@@ -135,6 +135,17 @@ ul#calenderList{
 #calenderList .schedulePulldownList:first-child {
 	margin-left: 16px;
 }
+#calenderList li:nth-child(1) .schedulePulldownList:first-child,
+#calenderList li:nth-child(2) .schedulePulldownList:first-child,
+#calenderList li:nth-child(3) .schedulePulldownList:first-child,
+#calenderList li:nth-child(4) .schedulePulldownList:first-child,
+#calenderList li:nth-child(5) .schedulePulldownList:first-child,
+#calenderList li:nth-child(6) .schedulePulldownList:first-child,
+#calenderList li:nth-child(7) .schedulePulldownList:first-child,
+#calenderList li:nth-child(8) .schedulePulldownList:first-child,
+#calenderList li:nth-child(9) .schedulePulldownList:first-child {
+	margin-left: 26px;
+}
 #calenderList .schedulePulldownList:last-child {
 	border: none;
 }
