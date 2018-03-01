@@ -609,6 +609,13 @@ img.bathtype2 {
 	margin-right: 40px;
 }
 img.bathtype3 {
+	width: 193px;
+	height: 310px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 30%;
+}
+img.bathtype4 {
 	width: 454px;
 	height: 182px;
 	margin-top: 100px;
@@ -646,9 +653,27 @@ img#guidetitle2 {
 }
 div#guidepart1 {
 	writing-mode: vertical-rl;
-	float: right;
-	margin-bottom: 250px;
-	margin-right: 50px;
+	margin: 0 auto 250px auto;
+}
+img#guidetitle3 {
+	width: 460px;
+	height: 220px;
+	display: block;
+	margin: 0 auto 150px auto;
+}
+div#guidepart2 {
+	writing-mode: vertical-rl;
+	margin: 0 auto 250px auto;
+}
+img#guidetitle4 {
+	width: 460px;
+	height: 220px;
+	display: block;
+	margin: 0 auto 150px auto;
+}
+div#guidepart3 {
+	writing-mode: vertical-rl;
+	margin: 0 auto 250px auto;
 }
 /* reservation.php用 */
 div#reservemain {

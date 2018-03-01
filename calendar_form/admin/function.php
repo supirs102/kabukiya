@@ -298,13 +298,13 @@ global $todayFlag,$todayFlagBg,$filePath,$dispMonth,$holidayFilePath,$flagHidden
 	$prev = date("Y-m",mktime(0,0,0,date("m",$timeStamp)-1,1,date("Y",$timeStamp)));
 	$next = date("Y-m",mktime(0,0,0,date("m",$timeStamp)+1,1,date("Y",$timeStamp)));
 
-	$dspPrev = '<a href="?ym='.$prev.'">&laquo;前月</a>';//前月へのナビ
+	$dspPrev = '<a href="?ym='.$prev.'">前の月へ</a>';//前月へのナビ
 
 	if((strtotime($prev.'-01') < strtotime(date("Y-m-01",mktime(0,0,0,date("m")-$dispMonth,1,date("Y"))))) || ($flagHiddenPrev == 0 && strtotime($ym.'-01') <= strtotime(date('Y-m-01')))){
 		$dspPrev = '';
 	}
 
-	$dspNext = '<a href="?ym='.$next.'">翌月&raquo;</a>';//翌月へのナビ
+	$dspNext = '<a href="?ym='.$next.'">次の月へ</a>';//翌月へのナビ
 
 	if(strtotime($next.'-01') > strtotime(date("Y-m-01",mktime(0,0,0,date("m")+$dispMonth,1,date("Y"))))){
 		$dspNext = '';
