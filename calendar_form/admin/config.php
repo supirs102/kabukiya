@@ -45,7 +45,7 @@ $password[] = '1397';   // パスワード
 
 
 //サイトのトップページのURL　※デフォルトでは送信完了後に「トップページへ戻る」ボタンが表示されますので
-$site_top = "http://www.php-factory.net/";
+$site_top = "school.frontier-pc.com/fh501/028";
 
 //スマホサイトのトップページのURL（スマホでも当システムを使用する場合のみ）
 $sp_site_top = "http://www.php-factory.net/sp/";
@@ -230,7 +230,7 @@ $thanksPageSP = "http://xxx.xxxxxxxxx/thanks.html";
 $thanksPageMB = "http://xxx.xxxxxxxxx/thanks.html";
 
 // 必須入力項目を設定する(する=1, しない=0)
-$requireCheck = 0;
+$requireCheck = 1;
 
 /* 必須入力項目(入力フォームで指定したname属性の値を指定してください。（上記で1を設定した場合のみ）
 値はシングルクォーテーションで囲み、複数の場合はカンマで区切ってください。フォーム側と順番を合わせると良いです 

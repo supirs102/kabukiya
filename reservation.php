@@ -59,7 +59,7 @@
 		生態系に恵まれている<br>
 		場所であることに気づく</p>
 	</div><!-- /reserveabout -->
-	<div id="reservesystem">
+	<div id="reservesystem" class="calendarsize">
 		<?php require_once('calendar_form/admin/config.php'); ?>
 		<?php if(!isset($_POST["reservSubmit"]) && empty($_GET['mode'])){ ?>
 		<p class="holidayText"><?php if($closedText) echo $closedText; ?><span class="holidayCube" style="background:<?php echo $holidayBg ;?>"></span>休業日</p>
@@ -101,15 +101,13 @@
 				<td><input size="30" type="text" name="メールアドレス">※必須</td>
 			</tr>
 			<tr>
+				<th>住所</th>
+				<td><input size="30" type="text" name="住所"></td>
+			</tr>
+			<tr>
 				<th>性別</th>
 				<td><input type="radio" name="性別" value="男">&emsp;男&emsp;
 					<input type="radio" name="性別" value="女">&emsp;女&emsp;
-				</td>
-			</tr>
-			<tr>
-				<th>サイトを知ったきっかけ</th>
-				<td><input name="サイトを知ったきっかけ[]" type="checkbox" value="友人・知人">友人・知人
-					<input name="サイトを知ったきっかけ[]" type="checkbox" value="検索エンジン">検索エンジン
 				</td>
 			</tr>
 			<tr>
