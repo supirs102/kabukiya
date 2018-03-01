@@ -269,8 +269,8 @@ $(function(){
 		$('#headernav').find('a').stop().animate({color: '#002100'},500); //色
 		$('header').find('.bgheader').stop().fadeOut(); //右側
 		$('header').find('.bg01').stop().fadeIn(); //右側
-		$('header').find('.titleheader').stop().hide();
-		$('header').find('.title01').stop().show();
+		$('header').find('.titleheader').stop().hide(); //右側
+		$('header').find('.title01').stop().show(); //右側
 		$('.bg11').stop().fadeIn(); //左側
 	}).mouseleave(function() {
 		$('#headernav').find('a').stop().animate({color: '#855100'},500);
@@ -346,8 +346,8 @@ $(function(){
 		$('#headernav').find('a').stop().animate({color: '#002100'},500); //色
 		$('header').find('.bgheader').stop().fadeOut(); //右側
 		$('header').find('.bg01').stop().fadeIn(); //右側
-		$('header').find('.titleheader').stop().hide();
-		$('header').find('.title01').stop().show();
+		$('header').find('.titleheader').stop().hide(); //右側
+		$('header').find('.title01').stop().show(); //右側
 		$('.bg11').stop().fadeIn(); //左側
 	}).mouseleave(function() {
 		$('#headernav').find('a').stop().animate({color: '#3a1212'},500);
@@ -420,12 +420,12 @@ $(function(){
 
 	// ホバー時の挙動(reservation.php)
 	$('#linkul06').find('.goannailink').mouseenter(function() {
-		$('#headernav').find('a').stop().animate({color: '#3a1212'},500);
-		$('header').find('.bgheader').stop().fadeOut();
-		$('header').find('.bg02').stop().fadeIn();
-		$('header').find('.titleheader').stop().hide();
-		$('header').find('.title02').stop().show();
-		$('.bg12').stop().fadeIn();
+		$('#headernav').find('a').stop().animate({color: '#3a1212'},500); //色
+		$('header').find('.bgheader').stop().fadeOut(); //右側
+		$('header').find('.bg02').stop().fadeIn(); //右側
+		$('header').find('.titleheader').stop().hide(); //右側
+		$('header').find('.title02').stop().show(); //右側
+		$('.bg12').stop().fadeIn(); //左側
 	}).mouseleave(function() {
 		$('#headernav').find('a').stop().animate({color: '#002100'},500);
 		$('header').find('.bgheader').stop().fadeOut();

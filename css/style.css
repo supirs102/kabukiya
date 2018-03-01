@@ -274,10 +274,6 @@ div#look {
 	height: 94vh;
 	min-height: 650px;
 	overflow: hidden;
-	/* background-image: url(../images/top_face.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: auto; */
 }
 div#look img {
 	width: 100%;
@@ -292,8 +288,8 @@ div.bgmain {
 	height: 94vh;
 	min-height: 650px;
 	overflow: hidden;
-	position: absolute;
-	top: 24px;
+	position: relative;
+	top: -650px;
 	pointer-events: none;
 }
 div.bgmain img {
@@ -308,6 +304,7 @@ div.bgmain img {
 footer{
 	position: relative;
 	height: 450px;
+	margin-top: -650px;
 }
 footer #footerdata {
 	writing-mode: vertical-rl;
