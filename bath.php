@@ -48,34 +48,27 @@
 	<h2><span class="kana">OHURO</span><br><span>おふろ</span></h2>
 	<img id="bathtitle1" src="images/ofuro_top.png">
 	<div id="bathabout">
-		<p>一羽のホオジロが、<br>
-		水波の部屋のテラスに<br>
-		降り立つのが見える<br>
-		池の浅瀬ではセグロセキレイが<br>
-		水浴びをしていた</p>
-		<p>星のや軽井沢に足を<br>
-		踏み入れるとすぐに、豊かな<br>
-		生態系に恵まれている<br>
-		場所であることに気づく</p>
+		<p>日本的な情緒が<br>
+		非日常の空間を作り出す</p>
+		<p>入浴という行為により<br>
+		人はただ単に<br>
+		体の汚れを落とすだけでなく<br>
+		精神的に開放され自由になれる</p>
 	</div><!-- /bathabout -->
 	<img id="bathtitle2" src="images/ofuro.png">
 	<div id="bathpart1">
 		<img src="images/ofuro4.png" class="bathtype1">
-		<p>星のや軽井沢に足を<br>
-		踏み入れるとすぐに、豊かな<br>
-		生態系に恵まれている<br>
-		場所であることに気づく</p>
+		<p>伝統と格式が息づく<br>
+		ゆっくりとした贅沢な<br>
+		時間の流れの中、<br>
+		優雅で贅沢な時間を過ごす</p>
 	</div><!-- /bathpart1 -->
 	<div id="bathpart2">
-		<p>一羽のホオジロが、<br>
-		水波の部屋のテラスに<br>
-		降り立つのが見える<br>
-		池の浅瀬ではセグロセキレイが<br>
-		水浴びをしていた</p>
-		<p>星のや軽井沢に足を<br>
-		踏み入れるとすぐに、豊かな<br>
-		生態系に恵まれている<br>
-		場所であることに気づく</p>
+		<p>ジャポニズムを<br>
+		感じさせる空間で、<br>
+		数々の溢れるストーリーに<br>
+		満たされながら、<br>
+		くつろぎの時が紡がれてゆく</p>
 		<img src="images/ofuro3.png" class="bathtype2">
 	</div><!-- /bathpart2 -->
 	<img src="images/ofuro5.png" class="bathtype3">
