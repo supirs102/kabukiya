@@ -48,20 +48,20 @@
 	<h2><span class="kana">GOANNAI</span><br><span>ごあんない</span></h2>
 	<img id="guidetitle1" src="images/goannai_top.png">
 	<div id="guideabout">
+		<p>四百年を超える歴史を持つ<br>
+		日本固有の伝統芸能、歌舞伎は<br>
+		既存の考えにとらわれずに<br>
+		各時代の趣味嗜好を取り入れることで、<br>
+		長く人に愛される演劇へと成長した</p>
+	</div><!-- /guideabout -->
+	<img id="guidetitle2" src="images/goannai4.png">
+	<div id="guidepart1">
 		<p>一幅の画のような美しさとして<br>
 		引き立て役にもなり、<br>
 		情景を雄弁に物語る役割をも持つ</p>
 		<p>ただ典雅で上品な美意識として<br>
 		留めておくのではなく、<br>
 		より広く大衆の嗜好や感覚に訴える</p>
-	</div><!-- /guideabout -->
-	<img id="guidetitle2" src="images/goannai4.png">
-	<div id="guidepart1">
-		<p>400年を超える歴史を持つ<br>
-		日本固有の伝統芸能、歌舞伎は<br>
-		既存の考えにとらわれずに<br>
-		各時代の趣味嗜好を取り入れることで、<br>
-		長く人に愛される演劇へと成長した</p>
 	</div><!-- /guidepart1 -->
 	<img id="guidetitle3" src="images/goannai3.png">
 	<div id="guidepart2">
