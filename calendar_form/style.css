@@ -123,7 +123,11 @@ ul#calenderList{
 	color:#555;
 	font-size:11px;
 	padding:0px 0 3px;
-	border-bottom:1px dotted #aaa;
+	border-right:1px dotted #aaa;
+	display: inline-block;
+}
+#calenderList .schedulePulldownList:last-child {
+	border: none;
 }
 table.navNextPrev {
 	width:100%;
