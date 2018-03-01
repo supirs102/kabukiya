@@ -129,8 +129,8 @@ ul#calenderList{
 	padding:0px 0 3px;
 	border-right:1px dotted #aaa;
 	display: inline-block;
-	width: 26%;
-	min-width: 130px;
+	width: 25%;
+	min-width: 100px;
 }
 #calenderList .schedulePulldownList:first-child {
 	margin-left: 16px;
@@ -169,7 +169,7 @@ h3#headerYm{
 	text-align:center;
 	padding:5px ;
 	font-size:110%;
-	font-family:"メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	letter-spacing: 2px;
 }
 
 /* /if ListStyle */
@@ -196,7 +196,6 @@ h3#headerYm{
 	color:#555;
 	line-height:120%;
 	font-size:90%;
-	font-family:"メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 #formWrap h3{
 	font-weight:normal;
@@ -208,16 +207,19 @@ h3#headerYm{
 	border-radius:3px;
 	border:1px solid #ccc;
 }
-#formWrap p {
+div#formWrap p {
 	margin:0 0 5px;
 	padding:0;
 	font-size:13px;
+	color: #fff;
+	letter-spacing: 2px; !important
 }
 
 table.formTable {
 	width:100%;
 	margin:15px auto;
 	border-collapse:collapse;
+	background-color: #fff;
 }
 table.formTable td, table.formTable th {
 	border:1px solid #ccc;

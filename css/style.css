@@ -673,7 +673,8 @@ div#reserveabout {
 	margin: 0 auto;
 }
 div#reservesystem {
-	margin-top: 150px;
+	margin: 150px auto;
+	width: 80%;
 }
 
 /* 768px以下の場合のレイアウト */
