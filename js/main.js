@@ -38,6 +38,18 @@ $(function(){
 		$(".main").mCustomScrollbar();
 	});
 
+	// ホバー時の右側のずれ解消
+	var gap = $('.main').outerHeight();
+	$('.bgmain').css({
+		top: -gap
+	});
+	$(window).resize(function(){
+		var gap = $('.main').outerHeight();
+		$('.bgmain').css({
+			top: -gap
+		});
+	});
+
 	// ホバー時の挙動(index.php)
 	$('#linkul01').find('.goyoyakulink').mouseenter(function() {
 		$('#headernav').find('a').stop().animate({color: '#002100'},500); //色
