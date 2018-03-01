@@ -88,6 +88,7 @@ else if($confirmDsp == 1){
 	<title>ごよやく&nbsp;|&nbsp;歌舞伎屋</title>
 	<link href="../style.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="../../css/style.css" type="text/css">
+	<link rel="shortcut icon" href="images/favicon.ico">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
 	<link href="../../malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
@@ -221,6 +222,7 @@ if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &&
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 	<title>ごよやく&nbsp;|&nbsp;歌舞伎屋</title>
 	<link href="../style.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="../../css/style.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
