@@ -58,7 +58,7 @@
 		生態系に恵まれている<br>
 		場所であることに気づく</p>
 	</div><!-- /guideabout -->
-	<img id="guidetitle2" src="images/goannai2.png">
+	<img id="guidetitle2" src="images/goannai4.png">
 	<div id="guidepart1">
 		<p>一羽のホオジロが、<br>
 		水波の部屋のテラスに<br>
@@ -70,7 +70,7 @@
 		生態系に恵まれている<br>
 		場所であることに気づく</p>
 	</div><!-- /guidepart1 -->
-	<img id="guidetitle3" src="images/goannai4.png">
+	<img id="guidetitle3" src="images/goannai3.png">
 	<div id="guidepart2">
 		<p>一羽のホオジロが、<br>
 		水波の部屋のテラスに<br>
@@ -82,18 +82,6 @@
 		生態系に恵まれている<br>
 		場所であることに気づく</p>
 	</div><!-- /guidepart2 -->
-	<img id="guidetitle4" src="images/goannai3.png">
-	<div id="guidepart3">
-		<p>一羽のホオジロが、<br>
-		水波の部屋のテラスに<br>
-		降り立つのが見える<br>
-		池の浅瀬ではセグロセキレイが<br>
-		水浴びをしていた</p>
-		<p>星のや軽井沢に足を<br>
-		踏み入れるとすぐに、豊かな<br>
-		生態系に恵まれている<br>
-		場所であることに気づく</p>
-	</div><!-- /guidepart3 -->
 </div><!-- /guidemain -->
 <div class="bgmain">
 	<img class="bg11" src="images/goyoyaku_top.png">
