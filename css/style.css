@@ -407,8 +407,8 @@ div#roommain {
 }
 div#roommain p {
 	font-size: 10px;
-	letter-spacing: 10px;
-	line-height: 20px;
+	letter-spacing: 8px;
+	line-height: 30px;
 	margin: 0 20px;
 	text-align: left;
 }
@@ -456,7 +456,7 @@ div.roomcenter {
 	width: 420px;
 	height: 280px;
 	position: absolute;
-	top: -475px;
+	top: -405px;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -469,7 +469,8 @@ img.roomkamon {
 	width: 100px;
 	height: 100px;
 	float: left;
-	margin-top: 50px;
+	margin-top: 60px;
+	margin-right: 30px;
 	opacity: 0.5;
 }
 img.roomtype1 {
@@ -491,8 +492,8 @@ div#mealmain {
 }
 div#mealmain p {
 	font-size: 10px;
-	letter-spacing: 10px;
-	line-height: 20px;
+	letter-spacing: 8px;
+	line-height: 30px;
 	margin: 0 20px;
 	text-align: left;
 }
@@ -571,8 +572,8 @@ div#bathmain {
 }
 div#bathmain p {
 	font-size: 10px;
-	letter-spacing: 10px;
-	line-height: 20px;
+	letter-spacing: 8px;
+	line-height: 30px;
 	margin: 0 20px;
 	text-align: left;
 }
@@ -590,7 +591,7 @@ img#bathtitle2 {
 	width: 414px;
 	height: 308px;
 	display: block;
-	margin: 20px auto 120px auto;
+	margin: 90px auto 120px auto;
 }
 div#bathpart1 {
 	writing-mode: vertical-rl;
@@ -636,8 +637,8 @@ div#guidemain {
 }
 div#guidemain p {
 	font-size: 10px;
-	letter-spacing: 10px;
-	line-height: 20px;
+	letter-spacing: 8px;
+	line-height: 30px;
 	margin: 0 20px;
 	text-align: left;
 }

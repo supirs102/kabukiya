@@ -112,12 +112,11 @@
 		<div class="roomcenter">
 			<img class="roomkamon" src="images/gengorou.png">
 			<div class="roomdetail">
-			<p>出羽国金沢の柵の<br>
-			攻略に活躍し<br>
+			<p>出羽国金沢の柵の攻略に活躍し<br>
 			大いに武名をあげた</p>
-			<p>このとき景政は，<br>
+			<p>このとき景政は、<br>
 			鳥海弥三郎のために<br>
-			左目を射抜かれたが，<br>
+			左目を射抜かれたが、<br>
 			ひるむことなく即座に<br>
 			答えの矢を射返して<br>
 			これを倒したという</p>
