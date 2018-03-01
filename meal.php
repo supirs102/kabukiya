@@ -60,25 +60,22 @@
 	<img src="images/osyokuji2.png" class="mealtype1">
 	<div class="clear-element"></div>
 	<div id="mealpart1">
-		<p>一羽のホオジロが、<br>
-		水波の部屋のテラスに<br>
-		降り立つのが見える<br>
-		池の浅瀬ではセグロセキレイが<br>
-		水浴びをしていた</p>
-		<p>星のや軽井沢に足を<br>
-		踏み入れるとすぐに、豊かな<br>
-		生態系に恵まれている<br>
-		場所であることに気づく</p>
+			<p>主役の料理ひとつ取っても、<br>
+			選りすぐりの高級食材を多用し、<br>
+			座敷のつくり、しつらえ、<br>
+			調度品、伝統芸能、<br>
+			その数々が、<br>
+			高級の由来である</p>
 		<img src="images/osyokuji3.png" class="mealtype2">
 		<img src="images/osyokuji4.png" class="mealtype3">
 	</div><!-- /mealpart1 -->
 	<div id="mealpart2">
 		<img src="images/osyokuji5.png" class="mealtype4">
 		<img src="images/osyokuji6.png" class="mealtype5">
-		<p>星のや軽井沢に足を<br>
-		踏み入れるとすぐに、豊かな<br>
-		生態系に恵まれている<br>
-		場所であることに気づく</p>
+			<p>シャトーブリアンは<br>
+			ヒレ肉の中でも<br>
+			特に肉質のよい<br>
+			真ん中の部分である</p>
 	</div><!-- /mealpart2 -->
 </div><!-- /mealmain -->
 <div class="bgmain">
