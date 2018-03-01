@@ -321,8 +321,8 @@ footer #footerdata {
 	margin-left: 20px;
 }
 footer #footerdata span {
-	font-size: 26px;
-	letter-spacing: 14px;
+	font-size: 28px;
+	letter-spacing: 20px;
 }
 footer #footerdata span.kana {
 	font-size: 16px;
@@ -331,7 +331,7 @@ footer #footerdata p {
 	font-size: 12px;
 	line-height: 22px;
 	letter-spacing: 4px;
-	margin-right: 30px;
+	margin-right: 40px;
 }
 footer #footerdata p#footerjp {
 	writing-mode: horizontal-tb;
@@ -362,15 +362,15 @@ footer div#footernav nav ul li {
 }
 footer div#footernav nav ul li a {
 	display: block;
-	width: 30px;
-	line-height: 30px;
+	width: 12px;
+	line-height: 15px;
 	background-color: #a53926;
 	color: white;
-	padding: 5px;
+	padding: 17px;
 }
 footer div#footernav nav ul li a {
 	font-size: 16px;
-	letter-spacing: 8px;
+	letter-spacing: 10px;
 }
 
 /* main用 */
@@ -393,12 +393,12 @@ div.main h2 {
 	left: 50px;
 }
 div.main h2 span {
-	font-size: 35px;
-	letter-spacing: 40px;
+	font-size: 25px;
+	letter-spacing: 27px;
 }
 div.main h2 span.kana {
-	font-size: 19px;
-	letter-spacing: 14px;
+	font-size: 13px;
+	letter-spacing: 12px;
 }
 
 /* room.php用 */
@@ -609,8 +609,8 @@ img.bathtype2 {
 	margin-right: 40px;
 }
 img.bathtype3 {
-	width: 465px;
-	height: 300px;
+	width: 454px;
+	height: 182px;
 	margin-top: 100px;
 	margin-bottom: 200px;
 	margin-left: 15%;

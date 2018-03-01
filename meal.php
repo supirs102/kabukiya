@@ -46,7 +46,7 @@
 </header><!-- /header -->
 <div class="main" id="mealmain">
 	<h2><span class="kana">OSHOKUJI</span><br><span>おしょくじ</span></h2>
-	<img id="mealtitle" src="images/osyokuji.png">
+	<img id="mealtitle" src="images/osyokuji_top.jpg">
 	<div id="mealabout">
 		<p>一羽のホオジロが、<br>
 		水波の部屋のテラスに<br>
@@ -86,7 +86,7 @@
 	<img class="bg11" src="images/goyoyaku_top.png">
 	<img class="bg12" src="images/goannai_top.png">
 	<img class="bg13" src="images/ofuro_top.png">
-	<img class="bg14" src="images/osyokuji.png">
+	<img class="bg14" src="images/osyokuji_top.jpg">
 	<img class="bg15" src="images/goemon.png">
 	<img class="bg16" src="images/top_face.png">
 </div><!-- /bgmain -->

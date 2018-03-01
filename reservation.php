@@ -128,8 +128,8 @@
 	<img class="bg11" src="images/goyoyaku_top.png">
 	<img class="bg12" src="images/goannai_top.png">
 	<img class="bg13" src="images/ofuro_top.png">
-	<img class="bg14" src="images/osyokuji.png">
-	<img class="bg15" src="images/goemon.png">
+	<img class="bg14" src="images/oosyokuji_top.jpg">
+	<img class="bg15" src="images/goemon_top.jpg">
 	<img class="bg16" src="images/top_face.png">
 </div><!-- /bgmain -->
 <footer>
