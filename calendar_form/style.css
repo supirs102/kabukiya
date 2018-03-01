@@ -123,12 +123,14 @@ ul#calenderList{
 	font-size:10px;
 }
 #calenderList .schedulePulldownList{
-	text-align:left;
+	text-align:center;
 	color:#555;
 	font-size:11px;
 	padding:0px 0 3px;
 	border-right:1px dotted #aaa;
 	display: inline-block;
+	width: 26%;
+	min-width: 130px;
 }
 #calenderList .schedulePulldownList:first-child {
 	margin-left: 16px;
