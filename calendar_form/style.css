@@ -112,7 +112,8 @@ ul#calenderList{
 }
 #calenderList li{
 	border-bottom:1px solid #999;
-	padding:5px;
+	padding: 11px;
+	margin: 13px;
 }
 #calenderList li.first-child{
 	border-top:1px solid #999;
@@ -130,7 +131,7 @@ ul#calenderList{
 	border-right:1px dotted #aaa;
 	display: inline-block;
 	width: 25%;
-	min-width: 100px;
+	min-width: 96px;
 }
 #calenderList .schedulePulldownList:first-child {
 	margin-left: 16px;
@@ -191,11 +192,13 @@ h3#headerYm{
 /* ReservForm Style */
 
 #formWrap {
-	width:650px;
-	margin:10px auto;
+	margin:10px auto 140px auto;
 	color:#555;
 	line-height:120%;
 	font-size:90%;
+}
+.formsize {
+	width: 80%;
 }
 #formWrap h3{
 	font-weight:normal;
@@ -207,6 +210,20 @@ h3#headerYm{
 	border-radius:3px;
 	border:1px solid #ccc;
 }
+#formWrap h4 {
+	margin: 150px auto 40px auto;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.kakunin h4 {
+	margin: 150px auto 40px auto;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.kakunin a {
+	color: #fff;
+	font-size: 11px;
+}
 div#formWrap p {
 	margin:0 0 5px;
 	padding:0;
@@ -214,7 +231,10 @@ div#formWrap p {
 	color: #fff;
 	letter-spacing: 2px; !important
 }
-
+div#formWrap p.error_messe {
+	letter-spacing: 4px;
+	text-align: center;
+}
 table.formTable {
 	width:100%;
 	margin:15px auto;

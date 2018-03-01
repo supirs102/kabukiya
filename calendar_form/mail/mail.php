@@ -150,14 +150,14 @@ else if($confirmDsp == 1){
 <!-- ▲ Headerやその他コンテンツなど　※自由に編集可 ▲-->
 
 <!-- ▼************ 送信内容表示部　※編集は自己責任で ************ ▼-->
-<div id="formWrap">
+<div id="formWrap" class="formsize">
 <?php if($empty_flag == 1){ ?>
 <div align="center">
-<h4>入力にエラーがあります。下記をご確認の上「戻る」ボタンにて修正をお願い致します。</h4>
+<h4>入力にエラーがあります。</h4>
 <?php echo $errm; ?><br /><br /><input type="button" value=" 前画面に戻る " onClick="history.back()">
 </div>
 <?php }else{ ?>
-<h2>確認画面</h2>
+<h3>確認画面</h3>
 <p align="center">以下の内容で間違いがなければ、「送信する」ボタンを押してください。</p>
 <form action="<?php echo calf_h($_SERVER['SCRIPT_NAME']); ?>" method="POST">
 <table class="formTable">
@@ -282,17 +282,16 @@ if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &&
 		生態系に恵まれている<br>
 		場所であることに気づく</p>
 	</div><!-- /reserveabout -->
-<div align="center">
+<div class="kakunin" align="center">
 <?php if($empty_flag == 1){ ?>
-<h4>入力にエラーがあります。下記をご確認の上「戻る」ボタンにて修正をお願い致します。</h4>
+<h4>入力にエラーがあります。</h4>
 <div style="color:red"><?php echo $errm; ?></div>
 <br /><br /><input type="button" value=" 前画面に戻る " onClick="history.back()">
 </div>
 </body>
 </html>
 <?php }else{ ?>
-送信ありがとうございました。<br />
-送信は正常に完了しました。<br /><br />
+<h4>予約を受け付けました。</h4><br>
 <a href="<?php echo $site_top ;?>">トップページへ戻る&raquo;</a>
 </div>
 <?php calf_copyright();//削除禁止 ?>
@@ -335,7 +334,7 @@ if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &&
 //確認画面無しの場合の表示、指定のページに移動する設定の場合、エラーチェックで問題が無ければ指定ページヘリダイレクト
 else if(($jumpPage == 1 && $sendmail == 1) || $confirmDsp == 0) {
 	if($empty_flag == 1){ ?>
-<div align="center"><h4>入力にエラーがあります。下記をご確認の上「戻る」ボタンにて修正をお願い致します。</h4><div style="color:red"><?php echo $errm; ?></div><br /><br /><input type="button" value=" 前画面に戻る " onClick="history.back()"></div>
+<div align="center"><h4>入力にエラーがあります。</h4><div style="color:red"><?php echo $errm; ?></div><br /><br /><input type="button" value=" 前画面に戻る " onClick="history.back()"></div>
 <?php
 	}else{ header("Location: ".$thanksPage); }
 }
