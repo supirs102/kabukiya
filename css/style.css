@@ -678,8 +678,8 @@ div#reservemain {
 }
 div#reservemain p {
 	font-size: 10px;
-	letter-spacing: 10px;
-	line-height: 26px;
+	letter-spacing: 8px;
+	line-height: 35px;
 	margin: 0 20px;
 	text-align: left;
 }
