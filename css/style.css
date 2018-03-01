@@ -522,6 +522,9 @@ div#mealpart1 {
 div#mealpart1 p {
 	margin-top: 100px;
 }
+div#mealpart1 p:first-child {
+	margin-right: 5vw;
+}
 img.mealtype2 {
 	width: 156px;
 	height: 248px;
