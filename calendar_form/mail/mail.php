@@ -135,15 +135,15 @@ else if($confirmDsp == 1){
 	<h2><span class="kana">GOYOYAKU</span><br><span>ごよやく</span></h2>
 	<img id="reservetitle1" src="../../images/goannai_top.png">
 	<div id="reserveabout">
-		<p>一羽のホオジロが、<br>
-		水波の部屋のテラスに<br>
-		降り立つのが見える<br>
-		池の浅瀬ではセグロセキレイが<br>
-		水浴びをしていた</p>
-		<p>星のや軽井沢に足を<br>
-		踏み入れるとすぐに、豊かな<br>
-		生態系に恵まれている<br>
-		場所であることに気づく</p>
+	<p>月も朧に白魚の篝も<br>
+	霞む春の空<br>
+	冷てえ風もほろ酔いに<br>
+	心持ちよくうかうかと<br>
+	浮かれ烏のただ一羽</p>
+	<p>ねぐらへ帰える川端で<br>
+	竿の雫が濡れ手に<br>
+	泡思いがけなく<br>
+	手に入る百両</p>
 	</div><!-- /reserveabout -->
 
 
@@ -250,8 +250,8 @@ if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &&
 		<h1>
 			<img class="titleheader title01" src="../../images/goyoyaku_logo.png">
 			<img class="titleheader title02" src="../../images/goannai_logo.png">
-			<img class="titleheader title03" src="../../images/ofuro_nami.jpg">
-			<img class="titleheader title04" src="../../images/syokuji_top.jpg">
+			<img class="titleheader title03" src="../../images/ofuro_logo.png">
+			<img class="titleheader title04" src="../../images/osyokuji_top.jpg">
 			<img class="titleheader title05" src="../../images/oheya_logo.png">
 			<img class="titleheader title06" src="../../images/top_logo.png">
 		</h1>
@@ -272,15 +272,15 @@ if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &&
 	<h2><span class="kana">GOYOYAKU</span><br><span>ごよやく</span></h2>
 	<img id="reservetitle1" src="../../images/goannai_top.png">
 	<div id="reserveabout">
-		<p>一羽のホオジロが、<br>
-		水波の部屋のテラスに<br>
-		降り立つのが見える<br>
-		池の浅瀬ではセグロセキレイが<br>
-		水浴びをしていた</p>
-		<p>星のや軽井沢に足を<br>
-		踏み入れるとすぐに、豊かな<br>
-		生態系に恵まれている<br>
-		場所であることに気づく</p>
+	<p>月も朧に白魚の篝も<br>
+	霞む春の空<br>
+	冷てえ風もほろ酔いに<br>
+	心持ちよくうかうかと<br>
+	浮かれ烏のただ一羽</p>
+	<p>ねぐらへ帰える川端で<br>
+	竿の雫が濡れ手に<br>
+	泡思いがけなく<br>
+	手に入る百両</p>
 	</div><!-- /reserveabout -->
 <div class="kakunin" align="center">
 <?php if($empty_flag == 1){ ?>
