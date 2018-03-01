@@ -77,21 +77,6 @@ else if($confirmDsp == 1){
 
 /*　▼▼▼送信確認画面のレイアウト※編集可　オリジナルのデザインも適用可能▼▼▼　*/
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>確認画面</title>
-<link href="../style.css" rel="stylesheet" type="text/css" />
-<style type="text/css">
-/* 自由に編集下さい */
-p.error_messe{
-	margin:5px 0;
-	color:red;
-}
-</style>
-</head>
-<body>
 	<!DOCTYPE html>
 	<html>
 	<head>
@@ -100,28 +85,37 @@ p.error_messe{
 	<meta name="description" content="歌舞伎屋は、エキゾチックな文化に惹かれる方のためのレトロモダンな旅館です。">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 	<title>歌舞伎屋</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="../../css/style.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
-	<script src="js/main.js"></script>
+	<link href="../../malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+	<script src="../../malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="../../js/main.js"></script>
 	<link rel="icon" type="image/vnd.microsoft.icon" href="#">
+	<style type="text/css">
+	p.error_messe{
+		margin:5px 0;
+		color:red;
+	}
+	</style>
 	</head>
 	<body>
 	<div id="wrapper">
-	<header id="linkul01">
-		<img class="bgheader bg01" src="images/goyoyakutexture.png">
-		<img class="bgheader bg02" src="images/goannnaitexture.png">
-		<img class="bgheader bg03" src="images/ofurotexture.png">
-		<img class="bgheader bg04" src="images/oshokujitexture.png">
-		<img class="bgheader bg05" src="images/oheyatexture.png">
-		<img class="bgheader bg06" src="images/kabukiyatexture.png">
+	<header id="linkul06">
+		<img class="bgheader bg01" src="../../images/goyoyakutexture.png">
+		<img class="bgheader bg02" src="../../images/goannnaitexture.png">
+		<img class="bgheader bg03" src="../../images/ofurotexture.png">
+		<img class="bgheader bg04" src="../../images/oshokujitexture.png">
+		<img class="bgheader bg05" src="../../images/oheyatexture.png">
+		<img class="bgheader bg06" src="../../images/kabukiyatexture.png">
 		<h1>
-			<img class="titleheader title01" src="images/goyoyaku_logo.png">
-			<img class="titleheader title02" src="images/goannai_logo.png">
-			<img class="titleheader title03" src="images/ofuro_logo.png">
-			<img class="titleheader title04" src="images/osyokuji_logo.png">
-			<img class="titleheader title05" src="images/oheya_logo.png">
-			<img class="titleheader title06" src="images/top_logo.png">
+			<img class="titleheader title01" src="../../images/goyoyaku_logo.png">
+			<img class="titleheader title02" src="../../images/goannai_logo.png">
+			<img class="titleheader title03" src="../../images/ofuro_logo.png">
+			<img class="titleheader title04" src="../../images/osyokuji_logo.png">
+			<img class="titleheader title05" src="../../images/oheya_logo.png">
+			<img class="titleheader title06" src="../../images/top_logo.png">
 		</h1>
 		<div id="headernav">
 			<nav>
@@ -136,39 +130,21 @@ p.error_messe{
 			</nav>
 		</div><!-- /heaernav -->
 	</header><!-- /header -->
-	<div class="main" id="look">
-		<img src="images/top_face.png">
-	</div><!-- /look -->
-	<div class="bgmain">
-		<img class="bg11" src="images/goannai_top.png">
-		<img class="bg12" src="images/goannai_top.png">
-		<img class="bg13" src="images/ofuro_top.png">
-		<img class="bg14" src="images/osyokuji.png">
-		<img class="bg15" src="images/goemon.png">
-		<img class="bg16" src="images/top_face.png">
-	</div><!-- /bgmain -->
-	<footer>
-		<div id="footerdata">
-			<span class="kana">かぶきや</span><br>
-			<span>歌舞伎屋</span>
-			<p id="footerjp">104-0061&emsp;東京都中央区銀座１丁目23-45</p>
-			<p>Ginza&emsp;1-23-45,&emsp;Chuo-ku,&emsp;Tokyo,&emsp;Japan</p>
-		</div><!-- /footerdata -->
-		<div id="footerimg"><img id="footerlogo" src="images/icon.png" width="69" height="92"></div>
-		<div id="footernav">
-			<nav>
-				<ul>
-					<li><a href="https://www.instagram.com/">いんすたぐらむ</a></li>
-					<li><a href="mailto:sample@sample.com">おといあわせ</a></li>
-					<li><a href="https://goo.gl/maps/z6YffEgEyQJ2">ちず</a></li>
-				</ul>
-			</nav>
-		</div><!-- /footernav -->
-	</footer><!-- /footer -->
-	</div><!-- /wrapper -->
-	<div id="filter"></div><!-- /filter -->
-	</body>
-	</html>
+	<div class="main" id="reservemain">
+	<h2><span class="kana">GOYOYAKU</span><br><span>ごよやく</span></h2>
+	<img id="reservetitle1" src="../../images/goannai_top.png">
+	<div id="reserveabout">
+		<p>一羽のホオジロが、<br>
+		水波の部屋のテラスに<br>
+		降り立つのが見える<br>
+		池の浅瀬ではセグロセキレイが<br>
+		水浴びをしていた</p>
+		<p>星のや軽井沢に足を<br>
+		踏み入れるとすぐに、豊かな<br>
+		生態系に恵まれている<br>
+		場所であることに気づく</p>
+	</div><!-- /reserveabout -->
+
 
 <!-- ▲ Headerやその他コンテンツなど　※自由に編集可 ▲-->
 
@@ -199,8 +175,37 @@ p.error_messe{
 <!-- ▲ *********** 送信内容確認部　※編集は自己責任で ************ ▲-->
 
 <!-- ▼ Footerその他コンテンツなど　※編集可 ▼-->
-</body>
-</html>
+	</div><!-- /reservationmain -->
+	<div class="bgmain">
+		<img class="bg11" src="../../images/goannai_top.png">
+		<img class="bg12" src="../../images/goannai_top.png">
+		<img class="bg13" src="../../images/ofuro_top.png">
+		<img class="bg14" src="../../images/osyokuji.png">
+		<img class="bg15" src="../../images/goemon.png">
+		<img class="bg16" src="../../images/top_face.png">
+	</div><!-- /bgmain -->
+	<footer>
+		<div id="footerdata">
+			<span class="kana">かぶきや</span><br>
+			<span>歌舞伎屋</span>
+			<p id="footerjp">104-0061&emsp;東京都中央区銀座１丁目23-45</p>
+			<p>Ginza&emsp;1-23-45,&emsp;Chuo-ku,&emsp;Tokyo,&emsp;Japan</p>
+		</div><!-- /footerdata -->
+		<div id="footerimg"><img id="footerlogo" src="../../images/icon.png" width="69" height="92"></div>
+		<div id="footernav">
+			<nav>
+				<ul>
+					<li><a href="https://www.instagram.com/">いんすたぐらむ</a></li>
+					<li><a href="mailto:sample@sample.com">おといあわせ</a></li>
+					<li><a href="https://goo.gl/maps/z6YffEgEyQJ2">ちず</a></li>
+				</ul>
+			</nav>
+		</div><!-- /footernav -->
+	</footer><!-- /footer -->
+	</div><!-- /wrapper -->
+	<div id="filter"></div><!-- /filter -->
+	</body>
+	</html>
 <?php
 /* ▲▲▲送信確認画面のレイアウト　※オリジナルのデザインも適用可能▲▲▲　*/
 }
