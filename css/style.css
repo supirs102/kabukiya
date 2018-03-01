@@ -646,9 +646,27 @@ img#guidetitle2 {
 }
 div#guidepart1 {
 	writing-mode: vertical-rl;
-	float: right;
-	margin-bottom: 250px;
-	margin-right: 50px;
+	margin: 0 auto 250px auto;
+}
+img#guidetitle3 {
+	width: 460px;
+	height: 220px;
+	display: block;
+	margin: 0 auto 150px auto;
+}
+div#guidepart2 {
+	writing-mode: vertical-rl;
+	margin: 0 auto 250px auto;
+}
+img#guidetitle4 {
+	width: 460px;
+	height: 220px;
+	display: block;
+	margin: 0 auto 150px auto;
+}
+div#guidepart3 {
+	writing-mode: vertical-rl;
+	margin: 0 auto 250px auto;
 }
 /* reservation.php用 */
 div#reservemain {
