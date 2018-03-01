@@ -49,9 +49,9 @@
 	<div id="roomnav">
 		<nav>
 			<ul>
-				<li><a href="#roomgoemon" data-box="#roommain"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
-				<li><a href="#roombenkei" data-box="#roommain"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
-				<li><a href="#roomkamakura" data-box="#roommain"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a id="roomnavgoemon" href="#roomgoemon" data-box="#roommain"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a id="roomnavbenkei" href="#roombenkei" data-box="#roommain"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a id="roomnavkamakura" href="#roomkamakura" data-box="#roommain"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
 			</ul>
 		</nav>
 	</div><!-- /roomnav -->

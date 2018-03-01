@@ -1,21 +1,37 @@
 $(function(){
 
 	// おへやのページスムーススクロール
-	$("a[href^='#']").click(function(){
-		if(!$(this).data("box")){
-			$("body,html").stop().animate({
-				scrollTop:$($(this).attr("href")).offset().top
-			});
-		}else{
-			var $box = $($(this).data("box"));
-			var $tareget = $($(this).attr("href"));
-			var dist = $tareget.position().top - $box.position().top;
-			$box.stop().animate({
-				scrollTop: $box.scrollTop() + dist
-			}, 1000);
-		}
-		return false;
-	});
+	// $("a[href^='#']").click(function(){
+	// 	if(!$(this).data("box")){
+	// 		$("body,html").stop().animate({
+	// 			scrollTop:$($(this).attr("href")).offset().top
+	// 		});
+	// 	}else{
+	// 		var $box = $($(this).data("box"));
+	// 		var $tareget = $($(this).attr("href"));
+	// 		var dist = $tareget.position().top - $box.position().top;
+	// 		$box.stop().animate({
+	// 			scrollTop: $box.scrollTop() + dist
+	// 		}, 1000);
+	// 	}
+	// 	return false;
+	// });
+
+	// おへやのページスムーススクロール（カスタマイズ版）
+    $(window).load(function(){
+        $("#roomnavgoemon").click(function(e){
+            e.preventDefault();
+            $("#roommain").mCustomScrollbar("scrollTo","#roomgoemon");
+        });
+        $("#roomnavbenkei").click(function(e){
+            e.preventDefault();
+            $("#roommain").mCustomScrollbar("scrollTo","#roombenkei");
+        });
+        $("#roomnavkamakura").click(function(e){
+            e.preventDefault();
+            $("#roommain").mCustomScrollbar("scrollTo","#roomkamakura");
+        });
+    });
 
 	// 全体のフィルター
 	var w = document.body.clientWidth;
