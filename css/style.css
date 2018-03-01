@@ -393,12 +393,12 @@ div.main h2 {
 	left: 50px;
 }
 div.main h2 span {
-	font-size: 35px;
-	letter-spacing: 40px;
+	font-size: 25px;
+	letter-spacing: 27px;
 }
 div.main h2 span.kana {
-	font-size: 19px;
-	letter-spacing: 14px;
+	font-size: 13px;
+	letter-spacing: 12px;
 }
 
 /* room.php用 */
