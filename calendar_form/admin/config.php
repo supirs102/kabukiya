@@ -12,7 +12,7 @@ $userid = array();$password = array();
 #  営業日カレンダーと予約フォームが連動したPHPプログラムです。
 #　任意のページに設置し、予約フォーム連動カレンダーとして運用できます。
 #  改造や改変は自己責任で行ってください。
-#	
+#
 #  不具合等がありましたら下記までご連絡ください。
 #  MailAddress: info@php-factory.net
 #  name: K.Numata
@@ -45,7 +45,7 @@ $password[] = '1397';   // パスワード
 
 
 //サイトのトップページのURL　※デフォルトでは送信完了後に「トップページへ戻る」ボタンが表示されますので
-$site_top = "../../index.php";
+$site_top = "http://school.frontier-pc.com/fh501/028/kabukiya/index.php";
 
 //スマホサイトのトップページのURL（スマホでも当システムを使用する場合のみ）
 $sp_site_top = "http://www.php-factory.net/sp/";
@@ -233,8 +233,8 @@ $thanksPageMB = "http://xxx.xxxxxxxxx/thanks.html";
 $requireCheck = 1;
 
 /* 必須入力項目(入力フォームで指定したname属性の値を指定してください。（上記で1を設定した場合のみ）
-値はシングルクォーテーションで囲み、複数の場合はカンマで区切ってください。フォーム側と順番を合わせると良いです 
-チェックボックス、または項目連結などname属性の後ろに[]が付いたものを必須にしたい場合は[と]は付けないで下さい 
+値はシングルクォーテーションで囲み、複数の場合はカンマで区切ってください。フォーム側と順番を合わせると良いです
+チェックボックス、または項目連結などname属性の後ろに[]が付いたものを必須にしたい場合は[と]は付けないで下さい
 ※要するに「name="○○[]"」、または「name="○○[][]"」の場合には必ず後ろの[]を取った「○○」だけを指定して下さい。
 */
 $require = array('お名前','メールアドレス');
@@ -317,7 +317,7 @@ $timeArray = file($timeListFilePath);
 
 //登録データが無い場合には空の配列をセットしcount($timeArray)=1とする
 if(count($timeArray) < 1){
-	$timeArray[0] = "";	
+	$timeArray[0] = "";
 }
 
 //プルダウンの数を時間の設定数に合わせる
@@ -333,7 +333,7 @@ for($i = 0;$i < $pulldownCount;$i++){
 	//プルダウンリスト選択データ保存用ファイルパス（変更不可）
 	$pulldownFilePath[$i] = dirname(__FILE__).'/../data/pulldown_set_'.$i.'.dat';
 	if(!file_exists($pulldownFilePath[$i])){
-		
+
 		$fp = @fopen($pulldownFilePath[$i], "a+b") or die("必要なファイルが生成できませんでした。dataディレクトリのパーミッションを777等書き込み可能なものに変更下さい。");
 		fclose($fp);
 	}
@@ -342,15 +342,15 @@ for($i = 0;$i < $pulldownCount;$i++){
 	//このリストが管理画面の各日ごとのプルダウンに反映され、表示側にも選択したテキストが表示されます。
 	//$getSscheList[$i] = file($pulldownListFilePath[$i]);
 	$getSscheList[$i] = $pulldownListArray;//設定ファイルの配列からセットする
-	
+
 	//キーの振り直し
 	foreach($getSscheList[$i] as $getSscheListKey => $getSscheListVal){
-		
+
 		$getSscheListKey++;
 		$scheList[$i][$getSscheListKey] = rtrim($getSscheListVal);
-		
+
 	}
-	
+
 	if(!is_writable($pulldownFilePath[$i])){
 		exit($pulldownFilePath[$i]."　のパーミッションが正しくありません！666等書き込み可能なものに");
 	}
@@ -368,7 +368,7 @@ $closedFilePath = dirname(__FILE__).'/../data/closed.dat';
 $dataDir = dirname(__FILE__).'/../data';
 
 //パラメータを取得
-$ym = date("Y-m");	
+$ym = date("Y-m");
 if(isset($_GET['ym'])){
 	$ym = $_GET['ym'];
 }
