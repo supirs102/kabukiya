@@ -318,7 +318,7 @@ global $todayFlag,$todayFlagBg,$filePath,$dispMonth,$holidayFilePath,$flagHidden
 	';
 
 	//ヘッダ部の年月
-	$scheduleCalendar .= '<h3 id="headerYm">'.date("Y",$timeStamp) . "-" . date("n",$timeStamp).'</h2>';
+	$scheduleCalendar .= '<h3 id="headerYm">'.date("Y",$timeStamp) . "年" . date("n",$timeStamp). "月" .'</h3>';
 
 	//NextPrevナビセットを出力
 	$scheduleCalendar .= $navNextPrev;
