@@ -48,34 +48,34 @@
 	<h2><span class="kana">OSHOKUJI</span><br><span>おしょくじ</span></h2>
 	<img id="mealtitle" src="images/osyokuji_top.jpg">
 	<div id="mealabout">
-		<p>歌舞伎屋の自慢の料理は、<br>
-		食材の宝庫築地市場を台所に、<br>
+		<p>食材の宝庫築地市場を台所に、<br>
 		日本中の美味しいものを<br>
 		美味しいままにいただく料理は、</p>
 		<p>時にはフレンチ、<br>
 		時にはイタリアンの技法を<br>
 		盛り込んだ現代アートと見事に<br>
-		融合させた料理です</p>
+		調和し融合する</p>
 	</div><!-- /mealabout -->
 	<img src="images/osyokuji2.png" class="mealtype1">
 	<div class="clear-element"></div>
 	<div id="mealpart1">
 			<p>主役の料理ひとつ取っても、<br>
-			選りすぐりの高級食材を多用し、<br>
+			選りすぐりの良質な食材を<br>
+			多用しており、<br>
 			座敷のつくり、しつらえ、<br>
 			調度品、伝統芸能、<br>
-			その数々が、<br>
-			高級の由来である</p>
+			その全てが、<br>
+			歌舞伎屋を生み出している</p>
 		<img src="images/osyokuji3.png" class="mealtype2">
 		<img src="images/osyokuji4.png" class="mealtype3">
 	</div><!-- /mealpart1 -->
 	<div id="mealpart2">
 		<img src="images/osyokuji5.png" class="mealtype4">
 		<img src="images/osyokuji6.png" class="mealtype5">
-			<p>シャトーブリアンは<br>
-			ヒレ肉の中でも<br>
-			特に肉質のよい<br>
-			真ん中の部分である</p>
+			<p>柔らかな温もりあふれる<br>
+			憩いの空間で<br>
+			食べた瞬間体が<br>
+			喜ぶ料理に舌鼓を打つ</p>
 	</div><!-- /mealpart2 -->
 </div><!-- /mealmain -->
 <div class="bgmain">
