@@ -70,7 +70,7 @@
 		生態系に恵まれている<br>
 		場所であることに気づく</p>
 	</div><!-- /guidepart1 -->
-	<img id="guidetitle3" src="images/goannai2.png">
+	<img id="guidetitle3" src="images/goannai4.png">
 	<div id="guidepart2">
 		<p>一羽のホオジロが、<br>
 		水波の部屋のテラスに<br>
@@ -82,7 +82,7 @@
 		生態系に恵まれている<br>
 		場所であることに気づく</p>
 	</div><!-- /guidepart2 -->
-	<img id="guidetitle4" src="images/goannai2.png">
+	<img id="guidetitle4" src="images/goannai3.png">
 	<div id="guidepart3">
 		<p>一羽のホオジロが、<br>
 		水波の部屋のテラスに<br>
