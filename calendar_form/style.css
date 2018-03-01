@@ -96,6 +96,7 @@ p.holidayText{
 	color:#444;
 	margin:0;
 	padding:0 0 5px;
+	display: none;
 }
 
 
@@ -105,6 +106,8 @@ ul#calenderList{
 	margin:0;
 	padding:0;
 	font-family:"メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background-color: #fff;
+	color: #000;
 }
 #calenderList li{
 	border-bottom:1px solid #999;
@@ -126,6 +129,9 @@ ul#calenderList{
 	border-right:1px dotted #aaa;
 	display: inline-block;
 }
+#calenderList .schedulePulldownList:first-child {
+	margin-left: 16px;
+}
 #calenderList .schedulePulldownList:last-child {
 	border: none;
 }
@@ -140,8 +146,11 @@ table.navNextPrev .dspNext{
 	text-align:right;
 	padding:10px;
 }
+.dspPrev a,
+.dspNext a {
+	color: #fff;
+}
 h3#headerYm{
-	background:#666;
 	color:#fff;
 	text-align:center;
 	padding:5px ;

@@ -298,8 +298,14 @@ div.bgmain img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	object-position: top center;
+	object-position: center center;
 	display: none;
+}
+div.bgmain img.bg13 {
+	object-position: top center;
+}
+div.bgmain img.bg16 {
+	object-position: top center;
 }
 
 /* footer用 */
