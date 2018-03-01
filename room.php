@@ -49,9 +49,9 @@
 	<div id="roomnav">
 		<nav>
 			<ul>
-				<li><a id="roomnavgoemon" href="#roomgoemon" data-box="#roommain"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
-				<li><a id="roomnavbenkei" href="#roombenkei" data-box="#roommain"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
-				<li><a id="roomnavkamakura" href="#roomkamakura" data-box="#roommain"><img src="images/kamonrei1.png" width="50" height="50"></a></li>
+				<li><a id="roomnavgoemon" href="#roomgoemon" data-box="#roommain"><img src="images/gengorou.png" width="50" height="50"></a></li>
+				<li><a id="roomnavbenkei" href="#roombenkei" data-box="#roommain"><img src="images/benkei_kamon.png" width="50" height="50"></a></li>
+				<li><a id="roomnavkamakura" href="#roomkamakura" data-box="#roommain"><img src="images/gengorou.png" width="50" height="50"></a></li>
 			</ul>
 		</nav>
 	</div><!-- /roomnav -->
@@ -93,7 +93,7 @@
 	<div id="roombenkei">
 		<img src="images/room4.png" class="roomtitle">
 		<div class="roomcenter">
-			<img class="roomkamon" src="images/kamonrei1.png">
+			<img class="roomkamon" src="images/benkei_kamon.png">
 			<div class="roomdetail">
 				<p>一羽のホオジロが、<br>
 				水波の部屋のテラスに<br>
@@ -117,7 +117,7 @@
 	<div id="roomkamakura">
 		<img src="images/room8.png" class="roomtitle">
 		<div class="roomcenter">
-			<img class="roomkamon" src="images/kamonrei1.png">
+			<img class="roomkamon" src="images/gengorou.png">
 			<div class="roomdetail">
 				<p>一羽のホオジロが、<br>
 				水波の部屋のテラスに<br>
@@ -142,7 +142,7 @@
 <div class="bgmain">
 	<img class="bg11" src="images/goyoyaku_top.png">
 	<img class="bg12" src="images/goannai_top.png">
-	<img class="bg13" src="images/ofuro_top.png">
+	<img class="bg13" src="images/ofuro_nami.jpg">
 	<img class="bg14" src="images/osyokuji_top.jpg">
 	<img class="bg15" src="images/goemon_top.jpg">
 	<img class="bg16" src="images/top_face.png">

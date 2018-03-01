@@ -27,7 +27,7 @@
 	<h1>
 		<img class="titleheader title01" src="images/goyoyaku_logo.png">
 		<img class="titleheader title02" src="images/goannai_logo.png">
-		<img class="titleheader title03" src="images/ofuro_logo.png">
+		<img class="titleheader title03" src="images/ofuro_nami.jpg">
 		<img class="titleheader title04" src="images/osyokuji_logo.png">
 		<img class="titleheader title05" src="images/oheya_logo.png">
 		<img class="titleheader title06" src="images/top_logo.png">
