@@ -58,9 +58,9 @@
 		生態系に恵まれている<br>
 		場所であることに気づく</p>
 	</div><!-- /bathabout -->
-	<img id="bathtitle2" src="images/ofuro2.png">
+	<img id="bathtitle2" src="images/ofuro.png">
 	<div id="bathpart1">
-		<img src="images/osyokuji4.png" class="bathtype1">
+		<img src="images/ofuro4.png" class="bathtype1">
 		<p>星のや軽井沢に足を<br>
 		踏み入れるとすぐに、豊かな<br>
 		生態系に恵まれている<br>
@@ -76,16 +76,16 @@
 		踏み入れるとすぐに、豊かな<br>
 		生態系に恵まれている<br>
 		場所であることに気づく</p>
-		<img src="images/osyokuji4.png" class="bathtype2">
+		<img src="images/ofuro3.png" class="bathtype2">
 	</div><!-- /bathpart2 -->
-	<img src="images/osyokuji2.png" class="bathtype3">
+	<img src="images/ofuro6.png" class="bathtype3">
 </div><!-- /bathmain -->
 <div class="bgmain">
 	<img class="bg11" src="images/goyoyaku_top.png">
 	<img class="bg12" src="images/goannai_top.png">
 	<img class="bg13" src="images/ofuro_top.png">
 	<img class="bg14" src="images/osyokuji.png">
-	<img class="bg15" src="images/goemon.png">
+	<img class="bg15" src="images/goemon_top.jpg">
 	<img class="bg16" src="images/top_face.png">
 </div><!-- /bgmain -->
 <footer>
