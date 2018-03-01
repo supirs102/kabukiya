@@ -49,15 +49,15 @@
 	<h2><span class="kana">GOYOYAKU</span><br><span>ごよやく</span></h2>
 	<img id="reservetitle1" src="images/goyoyaku_top.png">
 	<div id="reserveabout">
-		<p>一羽のホオジロが、<br>
-		水波の部屋のテラスに<br>
-		降り立つのが見える<br>
-		池の浅瀬ではセグロセキレイが<br>
-		水浴びをしていた</p>
-		<p>星のや軽井沢に足を<br>
-		踏み入れるとすぐに、豊かな<br>
-		生態系に恵まれている<br>
-		場所であることに気づく</p>
+	<p>月も朧に白魚の篝も<br>
+		霞む春の空<br>
+	冷てえ風もほろ酔いに<br>
+	心持ちよくうかうかと<br>
+	浮かれ烏のただ一羽</p>
+	<p>ねぐらへ帰える川端で<br>
+	竿の雫が濡れ手に<br>
+	泡思いがけなく<br>
+	手に入る百両</p>
 	</div><!-- /reserveabout -->
 	<div id="reservesystem" class="calendarsize">
 		<?php require_once('calendar_form/admin/config.php'); ?>
