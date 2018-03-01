@@ -135,15 +135,12 @@ else if($confirmDsp == 1){
 	<h2><span class="kana">GOYOYAKU</span><br><span>ごよやく</span></h2>
 	<img id="reservetitle1" src="../../images/goannai_top.png">
 	<div id="reserveabout">
-	<p>月も朧に白魚の篝も<br>
-	霞む春の空<br>
-	冷てえ風もほろ酔いに<br>
-	心持ちよくうかうかと<br>
-	浮かれ烏のただ一羽</p>
-	<p>ねぐらへ帰える川端で<br>
-	竿の雫が濡れ手に<br>
-	泡思いがけなく<br>
-	手に入る百両</p>
+	<p>御予約前の御約束</p>
+	<p>一、お部屋の御予約はお一人様一室限りです<br>
+	一、宿泊料金は現時価でシーズンにより変動いたします<br>
+	一、宿泊予約はお電話いただいた時点で成立となります<br>
+	一、お支払は現金のみお受けいたします<br>
+	一、御予約後のキャンセルはお受けしません</p>
 	</div><!-- /reserveabout -->
 
 
@@ -272,15 +269,12 @@ if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &&
 	<h2><span class="kana">GOYOYAKU</span><br><span>ごよやく</span></h2>
 	<img id="reservetitle1" src="../../images/goannai_top.png">
 	<div id="reserveabout">
-	<p>月も朧に白魚の篝も<br>
-	霞む春の空<br>
-	冷てえ風もほろ酔いに<br>
-	心持ちよくうかうかと<br>
-	浮かれ烏のただ一羽</p>
-	<p>ねぐらへ帰える川端で<br>
-	竿の雫が濡れ手に<br>
-	泡思いがけなく<br>
-	手に入る百両</p>
+	<p>御予約前の御約束</p>
+	<p>一、お部屋の御予約はお一人様一室限りです<br>
+	一、宿泊料金は現時価でシーズンにより変動いたします<br>
+	一、宿泊予約はお電話いただいた時点で成立となります<br>
+	一、お支払は現金のみお受けいたします<br>
+	一、御予約後のキャンセルはお受けしません</p>
 	</div><!-- /reserveabout -->
 <div class="kakunin" align="center">
 <?php if($empty_flag == 1){ ?>

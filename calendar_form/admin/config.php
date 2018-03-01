@@ -45,7 +45,7 @@ $password[] = '1397';   // パスワード
 
 
 //サイトのトップページのURL　※デフォルトでは送信完了後に「トップページへ戻る」ボタンが表示されますので
-$site_top = "school.frontier-pc.com/fh501/028";
+$site_top = "../../index.php";
 
 //スマホサイトのトップページのURL（スマホでも当システムを使用する場合のみ）
 $sp_site_top = "http://www.php-factory.net/sp/";
