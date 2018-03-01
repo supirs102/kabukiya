@@ -68,12 +68,12 @@
 		踏み入れるとすぐに、豊かな<br>
 		生態系に恵まれている<br>
 		場所であることに気づく</p>
-		<img src="images/osyokuji6.png" class="mealtype2">
-		<img src="images/osyokuji3.png" class="mealtype3">
+		<img src="images/osyokuji3.png" class="mealtype2">
+		<img src="images/osyokuji4.png" class="mealtype3">
 	</div><!-- /mealpart1 -->
 	<div id="mealpart2">
-		<img src="images/osyokuji4.png" class="mealtype4">
-		<img src="images/osyokuji4.png" class="mealtype5">
+		<img src="images/osyokuji5.png" class="mealtype4">
+		<img src="images/osyokuji6.png" class="mealtype5">
 		<p>星のや軽井沢に足を<br>
 		踏み入れるとすぐに、豊かな<br>
 		生態系に恵まれている<br>
