@@ -85,7 +85,7 @@ else if($confirmDsp == 1){
 	<meta http-equiv="content-language" content="ja">
 	<meta name="description" content="歌舞伎屋は、エキゾチックな文化に惹かれる方のためのレトロモダンな旅館です。">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-	<title>ごよやく&emsp;|&emsp;歌舞伎屋</title>
+	<title>ごよやく&nbsp;|&nbsp;歌舞伎屋</title>
 	<link href="../style.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="../../css/style.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -222,7 +222,7 @@ if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &&
 	<meta http-equiv="content-language" content="ja">
 	<meta name="description" content="歌舞伎屋は、エキゾチックな文化に惹かれる方のためのレトロモダンな旅館です。">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-	<title>ごよやく&emsp;|&emsp;歌舞伎屋</title>
+	<title>ごよやく&nbsp;|&nbsp;歌舞伎屋</title>
 	<link href="../style.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="../../css/style.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

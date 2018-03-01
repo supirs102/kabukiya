@@ -5,7 +5,7 @@
 <meta http-equiv="content-language" content="ja">
 <meta name="description" content="歌舞伎屋は、エキゾチックな文化に惹かれる方のためのレトロモダンな旅館です。">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-<title>おしょくじ&emsp;|&emsp;歌舞伎屋</title>
+<title>おしょくじ&nbsp;|&nbsp;歌舞伎屋</title>
 <link rel="stylesheet" href="css/style.css" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
@@ -48,15 +48,14 @@
 	<h2><span class="kana">OSHOKUJI</span><br><span>おしょくじ</span></h2>
 	<img id="mealtitle" src="images/osyokuji_top.jpg">
 	<div id="mealabout">
-		<p>一羽のホオジロが、<br>
-		水波の部屋のテラスに<br>
-		降り立つのが見える<br>
-		池の浅瀬ではセグロセキレイが<br>
-		水浴びをしていた</p>
-		<p>星のや軽井沢に足を<br>
-		踏み入れるとすぐに、豊かな<br>
-		生態系に恵まれている<br>
-		場所であることに気づく</p>
+		<p>歌舞伎屋の自慢の料理は、<br>
+		食材の宝庫築地市場を台所に、<br>
+		日本中の美味しいものを<br>
+		美味しいままにいただく料理は、</p>
+		<p>時にはフレンチ、<br>
+		時にはイタリアンの技法を<br>
+		盛り込んだ現代アートと見事に<br>
+		融合させた料理です</p>
 	</div><!-- /mealabout -->
 	<img src="images/osyokuji2.png" class="mealtype1">
 	<div class="clear-element"></div>
