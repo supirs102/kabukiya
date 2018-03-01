@@ -178,7 +178,7 @@ else if($confirmDsp == 1){
 <!-- ▼ Footerその他コンテンツなど　※編集可 ▼-->
 	</div><!-- /reservationmain -->
 	<div class="bgmain">
-		<img class="bg11" src="../../images/goannai_top.png">
+		<img class="bg11" src="../../images/goyoyaku_top.png">
 		<img class="bg12" src="../../images/goannai_top.png">
 		<img class="bg13" src="../../images/ofuro_top.png">
 		<img class="bg14" src="../../images/osyokuji.png">
@@ -299,7 +299,7 @@ if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &&
 <!--  CV率を計測する場合ここにAnalyticsコードを貼り付け -->
 	</div><!-- /reservationmain -->
 	<div class="bgmain">
-		<img class="bg11" src="../../images/goannai_top.png">
+		<img class="bg11" src="../../images/goyoyaku_top.png">
 		<img class="bg12" src="../../images/goannai_top.png">
 		<img class="bg13" src="../../images/ofuro_top.png">
 		<img class="bg14" src="../../images/osyokuji.png">

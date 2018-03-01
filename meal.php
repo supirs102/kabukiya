@@ -83,7 +83,7 @@
 	</div><!-- /mealpart2 -->
 </div><!-- /mealmain -->
 <div class="bgmain">
-	<img class="bg11" src="images/goannai_top.png">
+	<img class="bg11" src="images/goyoyaku_top.png">
 	<img class="bg12" src="images/goannai_top.png">
 	<img class="bg13" src="images/ofuro_top.png">
 	<img class="bg14" src="images/osyokuji.png">
