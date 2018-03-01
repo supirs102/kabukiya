@@ -49,8 +49,8 @@
 	<div id="roomnav">
 		<nav>
 			<ul>
-				<li><a id="roomnavgoemon" href="#roomgoemon" data-box="#roommain"><img src="images/gengorou.png" width="50" height="50"></a></li>
-				<li><a id="roomnavbenkei" href="#roombenkei" data-box="#roommain"><img src="images/benkei_kamon.png" width="50" height="50"></a></li>
+				<li><a id="roomnavgoemon" href="#roomgoemon" data-box="#roommain"><img src="images/ishikawa_kamon.png" width="50" height="50"></a></li>
+				<li><a id="roomnavbenkei" href="#roombenkei" data-box="#roommain"><img src="images/benkei_kamon.png" width="45" height="45"></a></li>
 				<li><a id="roomnavkamakura" href="#roomkamakura" data-box="#roommain"><img src="images/gengorou.png" width="50" height="50"></a></li>
 			</ul>
 		</nav>
@@ -69,7 +69,7 @@
 	<div id="roomgoemon">
 		<img src="images/goemon.png" class="roomtitle">
 		<div class="roomcenter">
-			<img class="roomkamon" src="images/kamonrei1.png">
+			<img class="roomkamon" src="images/ishikawa_kamon.png">
 			<div class="roomdetail">
 				<p>一羽のホオジロが、<br>
 				水波の部屋のテラスに<br>

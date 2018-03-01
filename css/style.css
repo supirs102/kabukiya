@@ -357,7 +357,6 @@ footer div#footernav nav ul li {
 	display: inline-block;
 	vertical-align: bottom;
 	text-align: left;
-	background-color: pink;
 	margin: 2px;
 }
 footer div#footernav nav ul li a {
@@ -420,6 +419,10 @@ div#roomnav nav ul li {
 	writing-mode: vertical-rl;
 	display: inline-block;
 	margin: 125px 30px 100px 30px;
+}
+div#roomnav nav ul li:nth-child(2) {
+	margin-top: 120px;
+	margin-bottom: 105px;
 }
 div#roomabout {
 	writing-mode: vertical-rl;
@@ -646,10 +649,10 @@ div#guideabout {
 	margin: 0 auto;
 }
 img#guidetitle2 {
-	width: 460px;
-	height: 220px;
+	width: 410px;
+	height: 274px;
 	display: block;
-	margin: 0 auto 150px auto;
+	margin: 100px auto 150px auto;
 }
 div#guidepart1 {
 	writing-mode: vertical-rl;
